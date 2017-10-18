@@ -1,0 +1,932 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="95c35af1-5a46-4c5f-8809-8549c2918bf3" Title="RDotNet" Url="html/c69cba02-bd7f-ca0f-7d20-712bccc3bbb4.htm">
+    <HelpTOCNode Id="7dfb2922-0ba7-412b-a9e1-d6e12eb849f2" Title="BuiltinFunction Class" Url="html/0e3f48fc-0d85-74de-efe0-9e2f5fb6455f.htm">
+      <HelpTOCNode Title="BuiltinFunction Constructor " Url="html/d0de0043-456f-b4f6-956e-8127f83701d5.htm" />
+      <HelpTOCNode Title="BuiltinFunction Properties" Url="html/1b393e9c-feb8-33d4-f83b-4ad7c396370e.htm" />
+      <HelpTOCNode Id="3a1ac703-bfd2-4614-a5f5-b1eab13d9c34" Title="BuiltinFunction Methods" Url="html/665608c2-5bc7-e6e2-ca6e-d308f7e138da.htm">
+        <HelpTOCNode Id="38ee2da9-05ce-449e-bc87-afebf3123628" Title="Invoke Method " Url="html/74a508ed-1bc0-6577-db1f-488382a5db61.htm">
+          <HelpTOCNode Title="Invoke Method (IDictionary(String, SymbolicExpression))" Url="html/f1fa1582-8bdc-d8e6-2a9c-8add1aa1e2c8.htm" />
+          <HelpTOCNode Title="Invoke Method (SymbolicExpression[])" Url="html/b4a1a53f-8e9d-93ca-4baf-67dfa48515a8.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="BuiltinFunction Fields" Url="html/d9fc56c3-3c97-218c-1749-cb9a26696e26.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e4a47d53-a577-4a7b-9879-57a6547603b9" Title="CharacterMatrix Class" Url="html/8579b063-927c-0588-d45b-45fd7578f1fe.htm">
+      <HelpTOCNode Id="e2aba327-8983-43e6-b32e-0e3bd6f5f4be" Title="CharacterMatrix Constructor " Url="html/64304a1d-678f-b2c9-afae-be48637941aa.htm">
+        <HelpTOCNode Title="CharacterMatrix Constructor (REngine, IntPtr)" Url="html/ae9c4f68-8af8-9356-49d5-5cfa78be1fb8.htm" />
+        <HelpTOCNode Title="CharacterMatrix Constructor (REngine, String[,])" Url="html/d65733e5-6900-6635-39d3-dbf506dc1d6e.htm" />
+        <HelpTOCNode Title="CharacterMatrix Constructor (REngine, Int32, Int32)" Url="html/0946ead3-94dc-9f8b-f832-43f5477b5be9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9c24b8f0-a133-462a-94ce-a2baa47e45de" Title="CharacterMatrix Properties" Url="html/e502f8d4-fdab-1ac9-e4b9-09e856ca5236.htm">
+        <HelpTOCNode Title="DataSize Property " Url="html/882d7eae-28e6-926d-c396-03f22b097236.htm" />
+        <HelpTOCNode Id="2a9b29c0-10fb-44b1-975e-08313823503c" Title="Item Property " Url="html/ec3ab433-4f53-41e9-a9b7-2071f0b619b8.htm">
+          <HelpTOCNode Title="Item Property (Int32, Int32)" Url="html/26d8c099-2f6f-b111-757b-2d00935efe07.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="e1a48bb2-da60-400f-9ace-907bfeff51f8" Title="CharacterMatrix Methods" Url="html/0be33398-83d4-7862-41ac-cabb059a6f2b.htm">
+        <HelpTOCNode Title="GetArrayFast Method " Url="html/aefc78ec-277a-d6d9-4e12-48176afddee2.htm" />
+        <HelpTOCNode Title="InitMatrixFastDirect Method " Url="html/1c087b38-42b3-3c57-60ff-f0a1af012439.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CharacterMatrix Fields" Url="html/577194d7-a437-fc03-811f-fbc6d316d3d1.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6ee19a5b-8ed3-4075-928f-28f81aea807f" Title="CharacterVector Class" Url="html/32dfc21f-b9e0-c0ba-f946-0a9a421b260a.htm">
+      <HelpTOCNode Id="f6cda199-00f9-4825-948a-1107bca6abe5" Title="CharacterVector Constructor " Url="html/1df0ff88-c956-505e-545f-977fb21d54b1.htm">
+        <HelpTOCNode Title="CharacterVector Constructor (REngine, IEnumerable(String))" Url="html/6d071f7a-6b6b-7f12-9fc6-5bedf594e818.htm" />
+        <HelpTOCNode Title="CharacterVector Constructor (REngine, Int32)" Url="html/ea28b710-d740-c6b9-d4ec-cf3e6d5643b8.htm" />
+        <HelpTOCNode Title="CharacterVector Constructor (REngine, IntPtr)" Url="html/0df52d1c-ed0a-ce48-b53b-1ab6a5469853.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="afefd7d4-2ff1-4495-b7d2-211a7540c475" Title="CharacterVector Properties" Url="html/84e14415-156b-ac9f-a51b-c595f6287c73.htm">
+        <HelpTOCNode Title="DataSize Property " Url="html/f52e660b-3e5c-5774-926f-d42273ae03c0.htm" />
+        <HelpTOCNode Id="21a3b3ad-62e6-44e8-bb57-cdbd798102fd" Title="Item Property " Url="html/cfeaf6d7-a040-5fe7-47d4-f163c29f3c0b.htm">
+          <HelpTOCNode Title="Item Property (Int32)" Url="html/92892983-0535-981a-19b1-88b4e17eb334.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="12897ae8-99fa-479c-b248-370592c1404b" Title="CharacterVector Methods" Url="html/d9f9dab5-c12d-4447-3e0c-dd6a2ce45e0c.htm">
+        <HelpTOCNode Title="GetArrayFast Method " Url="html/3bb9f02d-df51-ba82-2644-815e6ebe9107.htm" />
+        <HelpTOCNode Title="SetVectorDirect Method " Url="html/d84b632d-7aa3-8e69-06ab-1d67d6cf5297.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CharacterVector Fields" Url="html/a8313b32-0838-43f7-1709-1f98d1c29f20.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1dddce12-627e-4e0b-821d-22f04e33085b" Title="Closure Class" Url="html/d869c214-5ed1-ddb5-e91c-ca13d27ce0dc.htm">
+      <HelpTOCNode Title="Closure Constructor " Url="html/626ce0b9-3499-871c-5aab-c18e68eecd36.htm" />
+      <HelpTOCNode Id="ed0cee55-9db9-4e7a-8029-2c64afb32062" Title="Closure Properties" Url="html/fd853a63-483a-2fa8-7dd7-83c0d4842706.htm">
+        <HelpTOCNode Title="Arguments Property " Url="html/cb127df6-438f-e4ea-20b3-848c0977b882.htm" />
+        <HelpTOCNode Title="Body Property " Url="html/850ae2bb-02c3-b3c9-663b-647ed6c0702a.htm" />
+        <HelpTOCNode Title="Environment Property " Url="html/ebac58b7-db0c-a758-06da-7386286999aa.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a93c421b-2303-4f7f-9cfe-c13a0fbf233d" Title="Closure Methods" Url="html/f04370e0-bfd8-c253-fd5c-70222ff9eb8b.htm">
+        <HelpTOCNode Id="cf4c28f9-6a4c-4f0f-bd1b-3198d6c0fffd" Title="Invoke Method " Url="html/279120da-4e8a-e1ca-f5d2-c9340c19692f.htm">
+          <HelpTOCNode Title="Invoke Method (IDictionary(String, SymbolicExpression))" Url="html/2e55a58d-7ca2-2932-8933-90cde16b7f03.htm" />
+          <HelpTOCNode Title="Invoke Method (SymbolicExpression[])" Url="html/c8474027-7124-baa5-fb49-90eac9b21da7.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Closure Fields" Url="html/b459e75c-f8f2-e324-21a5-038fb7841e0d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2b0ccb63-262d-427b-a8d2-b39988be96e4" Title="ComplexMatrix Class" Url="html/5c778ec9-5dcc-0162-df26-425fd76eb9a5.htm">
+      <HelpTOCNode Id="9590a985-f8e6-464d-a2cf-5fdf7766f1df" Title="ComplexMatrix Constructor " Url="html/98f7e618-bdda-9cd3-a040-df9f936ded93.htm">
+        <HelpTOCNode Title="ComplexMatrix Constructor (REngine, IntPtr)" Url="html/73270e5c-a263-b02c-3f04-56b80eaea9da.htm" />
+        <HelpTOCNode Title="ComplexMatrix Constructor (REngine, Complex[,])" Url="html/351c1808-3e75-0ef8-e4ab-e22e0bbb6235.htm" />
+        <HelpTOCNode Title="ComplexMatrix Constructor (REngine, Int32, Int32)" Url="html/7e62ed1f-1c5e-06f3-5d5a-d37e938f789f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bb4e6825-f9ff-482c-a4c5-8f3488147ac2" Title="ComplexMatrix Properties" Url="html/b67a075e-8471-2391-ec9a-a7abcb11f877.htm">
+        <HelpTOCNode Title="DataSize Property " Url="html/9dc1cd79-3d92-fc37-2be0-80892774df25.htm" />
+        <HelpTOCNode Id="dd41e8bc-0b8e-407a-b9a5-00e166c33ff1" Title="Item Property " Url="html/770a8028-9788-0374-86a1-e0999aada78b.htm">
+          <HelpTOCNode Title="Item Property (Int32, Int32)" Url="html/bfbf6d51-ea74-028b-b1ac-3bb4fe15ad3a.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="3f6ce170-ad49-4418-8315-324328645e40" Title="ComplexMatrix Methods" Url="html/e4a17011-89df-737c-95aa-d01a9035ba37.htm">
+        <HelpTOCNode Title="GetArrayFast Method " Url="html/084aad05-c4dc-02c4-6ad9-0ba0e6944465.htm" />
+        <HelpTOCNode Title="InitMatrixFastDirect Method " Url="html/b9e64c1c-482e-73c1-15d9-79906978f56f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ComplexMatrix Fields" Url="html/77086b6b-207d-598e-832f-b9096997d597.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="44d4fc03-bd0a-4c0d-a60e-81646422897c" Title="ComplexVector Class" Url="html/5c841f59-fe94-2bf1-709c-b29e1b8ff8b0.htm">
+      <HelpTOCNode Id="fc34b255-b6ea-498a-bd8d-7b967281a8c6" Title="ComplexVector Constructor " Url="html/e27afd57-1c39-a297-8f10-bc934f844699.htm">
+        <HelpTOCNode Title="ComplexVector Constructor (REngine, IEnumerable(Complex))" Url="html/f7f384c7-cbac-7841-2732-a52236930f6b.htm" />
+        <HelpTOCNode Title="ComplexVector Constructor (REngine, Int32)" Url="html/b9806184-ff9b-357e-f442-f278d34abf91.htm" />
+        <HelpTOCNode Title="ComplexVector Constructor (REngine, IntPtr)" Url="html/48e1b7ed-a458-6dc3-0941-4c40223b31db.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="72e568ff-0859-470d-902e-a0d243beefff" Title="ComplexVector Properties" Url="html/75463a0f-8198-8fbd-fc72-7348b944fac9.htm">
+        <HelpTOCNode Title="DataSize Property " Url="html/5eff57d5-1482-8871-e7c5-e67ca4092306.htm" />
+        <HelpTOCNode Id="da8542f1-f2a2-4480-bdb3-3a07352881ad" Title="Item Property " Url="html/ae3bd4f3-3aca-7b2f-b4f5-ad9b9bf6157a.htm">
+          <HelpTOCNode Title="Item Property (Int32)" Url="html/70df1b0b-79e3-52e2-5f6d-01ea1713408c.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="0b591da7-f281-4bac-a996-bde1aea33e61" Title="ComplexVector Methods" Url="html/26618745-a58d-d517-2415-6edce12a0117.htm">
+        <HelpTOCNode Title="GetArrayFast Method " Url="html/68e1613b-ce73-e541-ee97-3e13c83d231a.htm" />
+        <HelpTOCNode Title="SetVectorDirect Method " Url="html/d815dd20-ce40-18d2-a0a7-1d512cd7b18e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ComplexVector Fields" Url="html/fcbd16b0-0693-1570-c68d-4cb0d09b0ab8.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6f53bef2-8deb-439d-945b-09612c828b2d" Title="DataFrame Class" Url="html/15030abb-bd37-09cd-34d3-69190d34377d.htm">
+      <HelpTOCNode Title="DataFrame Constructor " Url="html/db21ac55-d405-2cf5-826f-03620f62023a.htm" />
+      <HelpTOCNode Id="d91792ba-c082-401e-b43e-3f2e68309470" Title="DataFrame Properties" Url="html/38adbd7d-a0fc-2537-7d8d-0829814bdbe3.htm">
+        <HelpTOCNode Title="ColumnCount Property " Url="html/23e46cfa-0f81-0033-7f20-d30bba1a8283.htm" />
+        <HelpTOCNode Title="ColumnNames Property " Url="html/f019779c-8f0c-be28-2e01-0815c45087a2.htm" />
+        <HelpTOCNode Title="DataSize Property " Url="html/666b1adc-cbb0-bcb2-6dee-97511cca6e42.htm" />
+        <HelpTOCNode Id="2afda38a-00ea-47b2-9087-e05570f8713a" Title="Item Property " Url="html/02754bda-fcf4-36a5-f9b3-465d401579b1.htm">
+          <HelpTOCNode Title="Item Property (Int32)" Url="html/cae0d803-ad7b-04fd-cf18-4b37f92eaf28.htm" />
+          <HelpTOCNode Title="Item Property (Int32, Int32)" Url="html/6bb0fbfa-8ac0-e85c-f3a9-eccca54dbcf4.htm" />
+          <HelpTOCNode Title="Item Property (Int32, String)" Url="html/007adc62-f62e-8c04-25e6-2320dcc2d4bc.htm" />
+          <HelpTOCNode Title="Item Property (String, String)" Url="html/ccbe9af5-54bf-d0f8-0ae5-201e6536a305.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="RowCount Property " Url="html/34ce6cce-1cc5-9348-cb6b-b4d2ec12ffba.htm" />
+        <HelpTOCNode Title="RowNames Property " Url="html/1b401963-a566-f2bf-5ea1-609ac7e4fdbd.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7c174d25-809d-4169-b81b-5e064f7d9e01" Title="DataFrame Methods" Url="html/1686de45-a9de-9e87-e23b-b3ae5998ad76.htm">
+        <HelpTOCNode Title="GetArrayFast Method " Url="html/9129fa6d-bfd8-aa16-f4a7-b630fe515e7c.htm" />
+        <HelpTOCNode Title="GetMetaObject Method " Url="html/e3869698-476d-d4ad-cb26-f685a39488cd.htm" />
+        <HelpTOCNode Id="9212212e-e5cc-4ee8-9d8b-e8b9b27f835f" Title="GetRow Method " Url="html/3dd0c2c9-e8c0-2dc4-def6-c191633afd04.htm">
+          <HelpTOCNode Title="GetRow Method (Int32)" Url="html/82bcaa68-ccd0-779c-ffc8-2a774bb0591a.htm" />
+          <HelpTOCNode Title="GetRow(TRow) Method (Int32)" Url="html/71eafbcc-ce42-0951-6f9b-a057bfd28628.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="414b5dfa-01f7-4245-ab8a-573010548924" Title="GetRows Method " Url="html/8d9876c2-dee2-9c58-194f-4c0a72d69363.htm">
+          <HelpTOCNode Title="GetRows Method " Url="html/ce6a68bb-c149-3ec5-71a0-bd6d3047d517.htm" />
+          <HelpTOCNode Title="GetRows(TRow) Method " Url="html/5ad82334-ff9f-cc49-dba3-ac62ab595f50.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="SetVectorDirect Method " Url="html/3ff66280-d042-9c3d-3e8a-e6e9deb04515.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="DataFrame Fields" Url="html/ef32f33d-9086-a102-b69a-0b7bfb65d38c.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0717e14f-bee4-4e74-a953-8f3746c09f2c" Title="DataFrameColumnAttribute Class" Url="html/854a7520-b40f-fa32-cce8-f6e5e8a0e6c2.htm">
+      <HelpTOCNode Id="b9cd6092-d33e-4c71-81b9-79acaef90580" Title="DataFrameColumnAttribute Constructor " Url="html/bdd5e5c5-5f13-65c7-9378-f7ebd6ca64ba.htm">
+        <HelpTOCNode Title="DataFrameColumnAttribute Constructor (Int32)" Url="html/1122fd51-291c-de1f-7f95-ca721f4a0d38.htm" />
+        <HelpTOCNode Title="DataFrameColumnAttribute Constructor (String)" Url="html/f9652b11-2038-be96-7686-bf931e5d691d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ad352238-bdfc-4216-85fd-902962e7edc3" Title="DataFrameColumnAttribute Properties" Url="html/6b47c220-de73-31a0-6100-7ab0a6582a4c.htm">
+        <HelpTOCNode Title="Index Property " Url="html/135f85db-9f3a-f15e-d829-fe3329beaf38.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/d3f9b2e9-0faf-b009-acd3-776aeb32637e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="DataFrameColumnAttribute Methods" Url="html/9eca3fab-313a-195a-9f08-b557f27b472c.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e96918e0-3f16-4152-b6d1-4cc094b5b200" Title="DataFrameRow Class" Url="html/c1fb9cfe-b806-c10b-8c21-8fb3b5635b23.htm">
+      <HelpTOCNode Title="DataFrameRow Constructor " Url="html/e6ee35d7-8805-6e8a-d340-10ecf2c692ff.htm" />
+      <HelpTOCNode Id="d8c6ae02-5156-445d-a404-5dcdbc78a256" Title="DataFrameRow Properties" Url="html/2234cef0-4ec1-4e45-59b8-9ad86a18b4b9.htm">
+        <HelpTOCNode Title="DataFrame Property " Url="html/2be58543-0b08-5285-c048-bd150cf486f3.htm" />
+        <HelpTOCNode Id="6700de89-7ab7-454f-b150-a2312b9d5a22" Title="Item Property " Url="html/dc570399-44f7-a59a-acd3-0033525104ae.htm">
+          <HelpTOCNode Title="Item Property (Int32)" Url="html/27616ac3-0777-de7b-967e-f1c335c1313b.htm" />
+          <HelpTOCNode Title="Item Property (String)" Url="html/d09ca5e6-eb92-8f8e-cd4b-a97f991bdbc9.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="RowIndex Property " Url="html/b10a64d1-e709-48f5-4def-e63b83beacb7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="54e4321b-e601-4ec9-855e-17e1887919bc" Title="DataFrameRow Methods" Url="html/6f8910b7-a69a-5835-e0db-f4d153f87d42.htm">
+        <HelpTOCNode Title="GetDynamicMemberNames Method " Url="html/ca935826-4e5e-6fe5-9f57-62136b137525.htm" />
+        <HelpTOCNode Title="TryGetMember Method " Url="html/b15a72fb-136d-4c0c-1120-773c04809149.htm" />
+        <HelpTOCNode Title="TrySetMember Method " Url="html/c519f3f1-87cd-30a5-db09-a4d445227a16.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c9f60eaf-63a9-4291-b566-1f2bcb197a46" Title="DataFrameRowAttribute Class" Url="html/d53b881f-ea20-c967-cab8-ee4ae3d3d684.htm">
+      <HelpTOCNode Title="DataFrameRowAttribute Constructor " Url="html/c92f1a3f-47b3-a876-04cf-3bf8668c3f37.htm" />
+      <HelpTOCNode Title="DataFrameRowAttribute Properties" Url="html/c127f269-4e11-11cf-9cc2-2fa0b12e8451.htm" />
+      <HelpTOCNode Title="DataFrameRowAttribute Methods" Url="html/2d8c7798-f637-a2d7-6f17-1bbfa047d32c.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c6624040-fc89-4c1a-9943-1dd5b7cab472" Title="DynamicVector Class" Url="html/188c82a8-bbfd-e70e-2e56-dcaf02b532dd.htm">
+      <HelpTOCNode Title="DynamicVector Constructor " Url="html/b8a30fdf-f583-11ea-4671-7980bed7b6a5.htm" />
+      <HelpTOCNode Id="53a69910-40a9-45a8-bbcd-5c7ef2041537" Title="DynamicVector Properties" Url="html/901560c4-3937-67d9-1ed5-16dc906f8c92.htm">
+        <HelpTOCNode Title="DataSize Property " Url="html/51ae1827-8a59-9d9d-5fc3-003b2a3fd31e.htm" />
+        <HelpTOCNode Id="b56fd6d7-da67-4f36-90e1-506323cc5f49" Title="Item Property " Url="html/a7e2415a-c5bc-52e6-5497-c2d23a10e12f.htm">
+          <HelpTOCNode Title="Item Property (Int32)" Url="html/5ff84feb-b9f3-f5e0-4c72-224c37908ff2.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="3a630047-7ba2-418f-8bd9-dcd9124d93cd" Title="DynamicVector Methods" Url="html/9151501c-864e-875b-76ca-d0fa92c38f74.htm">
+        <HelpTOCNode Title="GetArrayFast Method " Url="html/5f05ff3a-385f-324d-8f21-7ffc802db703.htm" />
+        <HelpTOCNode Title="SetVectorDirect Method " Url="html/398b4a76-3612-b530-a29c-ba79fb9ea215.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="DynamicVector Fields" Url="html/5b09dc12-99d2-15f1-0ee4-6793727969f8.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d462a692-81f7-4197-9408-b59a2204f419" Title="EvaluationException Class" Url="html/f5f4f65d-c78f-7f3e-8508-4749a2892780.htm">
+      <HelpTOCNode Id="4ff4cb48-22da-4a9b-a984-af0bfe9b55dd" Title="EvaluationException Constructor " Url="html/d6f0f49f-d08b-8d17-1341-52163e29ecb0.htm">
+        <HelpTOCNode Title="EvaluationException Constructor (String)" Url="html/6cdbe7ed-ea88-ab73-4844-2a78f7a4236c.htm" />
+        <HelpTOCNode Title="EvaluationException Constructor (String, Exception)" Url="html/f5d40238-e796-a7e2-5548-b14f8e952da1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="EvaluationException Properties" Url="html/c0dd5dc3-bbe8-4eac-ae1f-91c3e8d81d2a.htm" />
+      <HelpTOCNode Title="EvaluationException Methods" Url="html/6be27e65-214f-a5e2-f7ee-e455595b5b43.htm" />
+      <HelpTOCNode Title="EvaluationException Events" Url="html/ca4d2ea5-3e91-716a-163a-3c73b11c251a.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="82c610d9-07a5-43d4-aa23-560713dfe867" Title="Expression Class" Url="html/ac810f33-06fe-4a2f-20ea-39cde46bb809.htm">
+      <HelpTOCNode Title="Expression Constructor " Url="html/bc538fa1-f6e2-23da-78f9-7fef9233fccd.htm" />
+      <HelpTOCNode Title="Expression Properties" Url="html/dedacf91-b727-ee3a-9dfd-c823cf4b38ab.htm" />
+      <HelpTOCNode Id="59ee11f2-2869-4a69-9594-d96805c2c903" Title="Expression Methods" Url="html/7f6f629e-79a2-48ad-cc06-5dbd4b90c1de.htm">
+        <HelpTOCNode Title="Evaluate Method " Url="html/8de45f5f-26b5-0802-8eef-1a289d7dfe3e.htm" />
+        <HelpTOCNode Title="TryEvaluate Method " Url="html/83ca61b6-e5fe-53dd-d87c-d366b8049c6b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Expression Fields" Url="html/f00c2cda-fef1-91c3-f543-a46824c2e89c.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0219aa37-8f6f-4d4f-bd7b-aaef4e116235" Title="ExpressionVector Class" Url="html/060207c4-4d87-98f5-b91b-99093fb252f7.htm">
+      <HelpTOCNode Id="2f2d0e7c-2dee-43da-8654-40ce31bc657e" Title="ExpressionVector Properties" Url="html/bd500219-56bb-ea91-5add-86b53ecbce02.htm">
+        <HelpTOCNode Title="DataSize Property " Url="html/37b193bc-a954-29c9-9c0a-6e4e702ad2a4.htm" />
+        <HelpTOCNode Id="04bae58f-7f47-4af5-a7e2-ae5df6f33e23" Title="Item Property " Url="html/59618e78-10b8-ad36-9bf2-765391890d00.htm">
+          <HelpTOCNode Title="Item Property (Int32)" Url="html/47916fd9-c0b1-04ce-1ef9-2fc37fb1f324.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="e2e4008a-07bf-47ca-beb7-918f800a5585" Title="ExpressionVector Methods" Url="html/7a1cc5d7-e2a6-a712-07c2-0b06db23dd77.htm">
+        <HelpTOCNode Title="GetArrayFast Method " Url="html/21f91fc3-da98-2501-a4b1-84a94d4f9cf5.htm" />
+        <HelpTOCNode Title="SetVectorDirect Method " Url="html/7bbd5a6f-2c62-6b4c-190c-f1d84b937db3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ExpressionVector Fields" Url="html/39fde5ae-1151-5406-8ab2-e1009d067c53.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6799fbd2-73a8-496b-9118-9cbf001a7642" Title="Factor Class" Url="html/fdeb22f1-6068-10ed-1aaa-22398f58b423.htm">
+      <HelpTOCNode Title="Factor Constructor " Url="html/614ab5d0-1704-3bb0-affc-c330cae70874.htm" />
+      <HelpTOCNode Id="40cbb395-32e5-47f8-a1f8-4ed67fbc32ab" Title="Factor Properties" Url="html/43f5141e-e2b9-84ec-795b-e6d9597d2f6e.htm">
+        <HelpTOCNode Title="IsOrdered Property " Url="html/3b85a17b-2f53-d56c-f054-985d88be0a40.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8ad05a72-f6f4-4e24-b50c-6c69ff25d076" Title="Factor Methods" Url="html/cfe2b66d-2a45-c3c6-a6c4-f8c8bda7bc1d.htm">
+        <HelpTOCNode Title="GetFactor Method " Url="html/f477f8a7-bea3-efab-eb32-ecbd77a0b3f6.htm" />
+        <HelpTOCNode Id="bb67ec05-a239-4844-9396-8a2a6b0c1272" Title="GetFactors Method " Url="html/487e4c7a-dd14-53c8-8504-e072355a296d.htm">
+          <HelpTOCNode Title="GetFactors Method " Url="html/dae3f85f-ff8b-6743-4442-2d68ccae9436.htm" />
+          <HelpTOCNode Title="GetFactors(TEnum) Method (Boolean)" Url="html/5ccfe1a8-c8ec-ad8f-b4e2-7120cab60735.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetLevels Method " Url="html/97acdc8a-4984-8bbd-19dc-b0d1e9c762cb.htm" />
+        <HelpTOCNode Title="SetFactor Method " Url="html/ab910f0c-4b9a-b15a-b1ae-b8b7defbbe62.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Factor Fields" Url="html/4807a334-ca34-b393-c8cf-7857358f3cf9.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="471ab977-0e04-4980-a676-d01c50bf8fb6" Title="Function Class" Url="html/d5d54d7f-dad0-4c9d-3546-8d3600917bf1.htm">
+      <HelpTOCNode Title="Function Constructor " Url="html/59b6c929-cf98-8409-92f8-8ce20ba7318f.htm" />
+      <HelpTOCNode Title="Function Properties" Url="html/d6bb2b0a-8522-b311-26f0-0096ffe5fa0b.htm" />
+      <HelpTOCNode Id="a3b7b722-e0a6-41d9-a7d0-ba444625c6cc" Title="Function Methods" Url="html/dd67c4b6-3997-bad8-7d97-036436f17ea0.htm">
+        <HelpTOCNode Id="9d522eb2-e63d-4e34-a84e-867ca3ff7171" Title="Invoke Method " Url="html/4e0eca65-0901-f4b1-b437-7884e9de3c35.htm">
+          <HelpTOCNode Title="Invoke Method (IDictionary(String, SymbolicExpression))" Url="html/ec0ed3b2-9299-c83c-2fa3-d0bbdff75e2a.htm" />
+          <HelpTOCNode Title="Invoke Method (SymbolicExpression[])" Url="html/d1f081d2-7961-e620-bcdf-e280e2099eb4.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="InvokeNamed Method " Url="html/e1058383-bacb-f21f-b168-323321e7dac7.htm" />
+        <HelpTOCNode Title="InvokeOrderedArguments Method " Url="html/4006c1f9-fb85-43f3-6200-6553d37e8373.htm" />
+        <HelpTOCNode Title="InvokeStrArgs Method " Url="html/670b1341-de13-8a04-ad09-d678fdf23bc3.htm" />
+        <HelpTOCNode Title="InvokeViaPairlist Method " Url="html/c322dc4a-9cef-217d-de8a-2cc338be12ab.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Function Fields" Url="html/ade05a81-f2d8-e6c6-0e8b-14bd4e5f63ef.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bc0c0f28-37a0-449e-bcba-ab7db86a89a8" Title="GenericVector Class" Url="html/60c7cfcc-2a6e-9699-317b-740e1265d4bc.htm">
+      <HelpTOCNode Id="79b13110-de73-42f1-92f8-4b2d0273024d" Title="GenericVector Constructor " Url="html/306e432d-641d-3863-6f1f-3b7a8ed1729e.htm">
+        <HelpTOCNode Title="GenericVector Constructor (REngine, IEnumerable(SymbolicExpression))" Url="html/57295e1a-4374-f5ef-a744-d5bdab8f0f3d.htm" />
+        <HelpTOCNode Title="GenericVector Constructor (REngine, Int32)" Url="html/f883eced-09e2-a233-24b3-0a18a5cd2c39.htm" />
+        <HelpTOCNode Title="GenericVector Constructor (REngine, IntPtr)" Url="html/55d7165e-3b6c-ea99-f5f2-a6b18960edbb.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c8792b88-e9c7-4feb-8a89-d5be0a188426" Title="GenericVector Properties" Url="html/417cc5c5-00d4-537c-fe4c-b1768ac2287f.htm">
+        <HelpTOCNode Title="DataSize Property " Url="html/5254a873-9130-ffc2-a3f3-00c75f33fdea.htm" />
+        <HelpTOCNode Id="85f4a215-32c1-435e-a4ed-7ce2aa569f5b" Title="Item Property " Url="html/61bc80ee-acee-22c0-9fda-5a8bf194b567.htm">
+          <HelpTOCNode Title="Item Property (Int32)" Url="html/60f175ff-c67f-ac89-d9b8-6bb4364f4020.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="89b6c445-9e27-42e4-83f9-1983786ad4fb" Title="GenericVector Methods" Url="html/31a6011e-fa31-e3bb-8d6a-de4993ec54e7.htm">
+        <HelpTOCNode Title="GetArrayFast Method " Url="html/1e5b2e3b-1b08-7f79-1e29-4b981a621351.htm" />
+        <HelpTOCNode Title="GetMetaObject Method " Url="html/d601dd36-d988-7a53-69ca-5143ee542100.htm" />
+        <HelpTOCNode Id="317af228-003d-4f73-a87e-03d0178b0f33" Title="SetNames Method " Url="html/0e9df4f3-4849-d22d-eb1e-6b923f8ec66d.htm">
+          <HelpTOCNode Title="SetNames Method (String[])" Url="html/0efa076b-19c2-7202-afc9-7f34c2e50e1d.htm" />
+          <HelpTOCNode Title="SetNames Method (CharacterVector)" Url="html/7c73074b-96de-688d-7eed-29e89e12897e.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="SetVectorDirect Method " Url="html/c97e0f34-ad35-bbab-b82c-838ab432f24e.htm" />
+        <HelpTOCNode Title="ToPairlist Method " Url="html/2cee92cb-a9c9-4014-2366-85ff70bd5e45.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="GenericVector Fields" Url="html/e17ab281-c3dc-59b1-a093-aa618ee9b1b9.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1e053fda-573d-4fff-afa1-f41dd20ae7f0" Title="IntegerMatrix Class" Url="html/f6c7d9b0-3cdc-fb0b-a5f9-3bdb83d7f7bc.htm">
+      <HelpTOCNode Id="a0078f76-bb47-410a-82dd-a57ee1ea2900" Title="IntegerMatrix Constructor " Url="html/250bd0f5-ba00-4ac4-98d4-4a7b89642a5f.htm">
+        <HelpTOCNode Title="IntegerMatrix Constructor (REngine, Int32[,])" Url="html/ba6e360b-04d6-e2d4-52e0-4cdc89cd44f3.htm" />
+        <HelpTOCNode Title="IntegerMatrix Constructor (REngine, IntPtr)" Url="html/ff153386-4ba6-af00-e928-100d11809415.htm" />
+        <HelpTOCNode Title="IntegerMatrix Constructor (REngine, Int32, Int32)" Url="html/208fa00b-c306-cec8-35ad-1bd218d0c570.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="aeac12dc-7f38-4bfc-ab6c-541dfba96706" Title="IntegerMatrix Properties" Url="html/5e572395-387e-81fe-e30f-a1f09b7dde3e.htm">
+        <HelpTOCNode Title="DataSize Property " Url="html/ee43db42-cf65-cc9e-7844-93c3f31c2d00.htm" />
+        <HelpTOCNode Id="9111c3a6-7024-428a-9aa3-807ee9233db1" Title="Item Property " Url="html/5538a341-fe4a-2bcc-6d86-d37bd4174ca6.htm">
+          <HelpTOCNode Title="Item Property (Int32, Int32)" Url="html/afe41674-3268-fa57-307f-7a523e03c39c.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="9ad4c586-0987-48f8-8504-9f0f64c1d3ff" Title="IntegerMatrix Methods" Url="html/ad600859-dbeb-506a-d6d7-41325bcac4d3.htm">
+        <HelpTOCNode Title="GetArrayFast Method " Url="html/32ce3d58-48a5-5c4d-e95f-c0a7f78a0277.htm" />
+        <HelpTOCNode Title="InitMatrixFastDirect Method " Url="html/6d9a01d4-003e-ea30-9180-d2f39ced17b5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IntegerMatrix Fields" Url="html/947a080f-ca5c-1a49-b589-0f27e9d3dc71.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bef893a4-4b24-4da5-b6a9-edb5c0d36898" Title="IntegerVector Class" Url="html/d473700a-acd0-7ee7-4501-9b29b85d6532.htm">
+      <HelpTOCNode Id="ace64ae2-d02b-4b4c-92d8-26271b4f80ea" Title="IntegerVector Constructor " Url="html/e1d5de8f-b1c5-cecf-082d-01ca53f0c20c.htm">
+        <HelpTOCNode Title="IntegerVector Constructor (REngine, IEnumerable(Int32))" Url="html/e66a0fda-71c4-f333-8260-0fd7d0e2cd24.htm" />
+        <HelpTOCNode Title="IntegerVector Constructor (REngine, Int32)" Url="html/9a145a8d-2af4-87ec-b1f9-935f9e114078.htm" />
+        <HelpTOCNode Title="IntegerVector Constructor (REngine, Int32[])" Url="html/c673d3d3-7cb0-dd55-feeb-f4508579b343.htm" />
+        <HelpTOCNode Title="IntegerVector Constructor (REngine, IntPtr)" Url="html/07d1249f-a267-2a70-d7ae-53bb0055fa66.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="370f7d2e-4881-4557-9add-bf358e87c767" Title="IntegerVector Properties" Url="html/4fe121d6-1eb9-27ee-ed9e-120ca680e436.htm">
+        <HelpTOCNode Title="DataSize Property " Url="html/58ee512d-9345-0684-b83e-01489beb54de.htm" />
+        <HelpTOCNode Id="84972162-a43b-4faa-8702-7d91d5de52ea" Title="Item Property " Url="html/292ed9c4-80be-7b12-cd7d-9cf11a956295.htm">
+          <HelpTOCNode Title="Item Property (Int32)" Url="html/700c2e24-bf9d-6131-1b05-e6455a6f959d.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="NACode Property " Url="html/7050a98d-9b48-80da-71e7-dc53934ceb8b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9ece0ec5-845e-4b58-818c-b9fab41857a5" Title="IntegerVector Methods" Url="html/01b8c50e-af59-5429-ba45-ac82a17ae3f2.htm">
+        <HelpTOCNode Title="CopyTo Method " Url="html/def81643-d0ad-c2b3-e3bc-6fb9a5d7300d.htm" />
+        <HelpTOCNode Title="GetArrayFast Method " Url="html/42943a5b-a4c4-a946-ca3b-d43c400a3f17.htm" />
+        <HelpTOCNode Title="SetVectorDirect Method " Url="html/098cf092-d1af-9b2f-2904-816c472d0ddb.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IntegerVector Fields" Url="html/81bb2165-caef-d964-f705-37a0275b8cf7.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="eef3bb42-cc8e-4236-8c4a-8fc82443dca3" Title="InternalString Class" Url="html/bc83197f-e82b-4ecb-61c8-2854c9a1576d.htm">
+      <HelpTOCNode Id="789bc600-06a7-4479-8ee6-03127fca39bb" Title="InternalString Constructor " Url="html/8cd1d52c-dafa-2945-d11f-e441e02e2bfb.htm">
+        <HelpTOCNode Title="InternalString Constructor (REngine, IntPtr)" Url="html/02c9bf9c-7fd8-942b-ead8-7d4f34d79065.htm" />
+        <HelpTOCNode Title="InternalString Constructor (REngine, String)" Url="html/4bb4ad77-3ffd-3715-3ed9-b038bdcdd2ae.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="InternalString Properties" Url="html/7cf2eed9-e0f1-3a0d-7c90-6f9efb56c7bb.htm" />
+      <HelpTOCNode Id="5042bfc1-c13e-4125-9cfb-f6e1205c7b3d" Title="InternalString Methods" Url="html/8f7cbe02-a24b-4652-ab71-8330c364b106.htm">
+        <HelpTOCNode Title="GetInternalValue Method " Url="html/f601d5be-3b4d-37ca-9fb9-266056903472.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/12975e92-1776-9c1a-76ba-66d91d951c2d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f8f9e954-434b-413b-bcb4-5c19177cb504" Title="InternalString Type Conversions" Url="html/621adcef-2707-f207-8975-3b753d9121a1.htm">
+        <HelpTOCNode Title="Implicit Conversion (InternalString to String)" Url="html/6b5b5d72-cc28-c5fb-14bf-7f05a9640172.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="InternalString Fields" Url="html/d534f7f8-459e-2ba6-d79f-42191c60367d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0f5295bc-d1f5-4480-8c66-f9fc362c405b" Title="Language Class" Url="html/eb33492a-674e-40ff-e019-73d268674037.htm">
+      <HelpTOCNode Title="Language Constructor " Url="html/399473c0-1f45-6e87-e4f5-da0c97ff0114.htm" />
+      <HelpTOCNode Id="2b4a1df8-2865-459f-924b-536b51f48eb2" Title="Language Properties" Url="html/ce9e0ffe-310e-422d-b7f6-e333c93ba83c.htm">
+        <HelpTOCNode Title="FunctionCall Property " Url="html/f72d6fd8-c892-038a-b722-a9c0bcbb0a1a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Language Methods" Url="html/776ae790-8ddd-7dda-449f-64427ebe75f4.htm" />
+      <HelpTOCNode Title="Language Fields" Url="html/16ff6507-ac1f-869d-ff13-13d6035142e2.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="31f6a4eb-25b1-485b-8075-66d024c310f2" Title="LogicalMatrix Class" Url="html/5ff05beb-637c-2a48-0bed-5fc995bf3aa1.htm">
+      <HelpTOCNode Id="d5851f4b-f8d8-471d-9ed8-9f1d3102943c" Title="LogicalMatrix Constructor " Url="html/37ae0977-2fca-65cf-b575-b04769b645ef.htm">
+        <HelpTOCNode Title="LogicalMatrix Constructor (REngine, Boolean[,])" Url="html/3bb9af82-db9a-c704-1978-822431c87dc8.htm" />
+        <HelpTOCNode Title="LogicalMatrix Constructor (REngine, IntPtr)" Url="html/e2b49030-d3b0-3160-6518-81160842b3c2.htm" />
+        <HelpTOCNode Title="LogicalMatrix Constructor (REngine, Int32, Int32)" Url="html/a4c7e816-1c92-0cc4-17d2-20215392d4dc.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="287a7847-32b7-4b60-a9ad-35fdc6c65f5e" Title="LogicalMatrix Properties" Url="html/04378258-41cf-db21-a5b0-15070e4a2f9a.htm">
+        <HelpTOCNode Title="DataSize Property " Url="html/e9157150-e27a-6437-8cba-9922847bd0aa.htm" />
+        <HelpTOCNode Id="392de38f-4280-4d72-922c-21d39a0d80af" Title="Item Property " Url="html/93aa51e7-65d3-2648-c679-b17244935323.htm">
+          <HelpTOCNode Title="Item Property (Int32, Int32)" Url="html/3dcb9aa7-6e0e-5e6e-fa1c-7a747455a602.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="f978b56a-8d58-4d00-8e57-77dca1b888dd" Title="LogicalMatrix Methods" Url="html/5fbb5e94-8b98-df7d-f640-3ca5e19e728c.htm">
+        <HelpTOCNode Title="GetArrayFast Method " Url="html/d9a96c60-df98-2c0e-922b-ff547694e04e.htm" />
+        <HelpTOCNode Title="InitMatrixFastDirect Method " Url="html/c371b55e-aaea-5240-e464-c27d3cf554b3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="LogicalMatrix Fields" Url="html/e04c7ed9-6f26-e759-75d9-e4c5989c7707.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="048f4b90-84f5-46ac-b1a5-971488b8f174" Title="LogicalVector Class" Url="html/5debc409-a8b6-50a8-c0eb-1b93475f07b4.htm">
+      <HelpTOCNode Id="c250def2-dbc0-45b1-b7df-7929ba93b34b" Title="LogicalVector Constructor " Url="html/14980c32-4b81-e83d-ebd4-fe2a76d5c250.htm">
+        <HelpTOCNode Title="LogicalVector Constructor (REngine, IEnumerable(Boolean))" Url="html/f28305b4-856c-8e39-a7f0-0c89621c6d32.htm" />
+        <HelpTOCNode Title="LogicalVector Constructor (REngine, Int32)" Url="html/42ae28ca-671f-8370-8e51-f8d36c1bb802.htm" />
+        <HelpTOCNode Title="LogicalVector Constructor (REngine, IntPtr)" Url="html/d95d5603-7ca8-e310-5399-a15457014ebf.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0b722057-231e-4a5c-ba5c-5ae62f13c480" Title="LogicalVector Properties" Url="html/7da13764-2c52-3ff1-ca49-10a2aa953207.htm">
+        <HelpTOCNode Title="DataSize Property " Url="html/f164a09c-4f13-fa21-c54b-9a5726e30ee7.htm" />
+        <HelpTOCNode Id="0fde7de8-5355-4582-896a-753bb88fcc22" Title="Item Property " Url="html/1d252b9c-8b78-34b7-6cb3-78583a5883d1.htm">
+          <HelpTOCNode Title="Item Property (Int32)" Url="html/bd0f49a2-ff42-848c-c458-1d2c123c8bb6.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="12a1ac00-7d94-4847-8743-19be52574ba8" Title="LogicalVector Methods" Url="html/17609751-8edc-7454-6d75-74fa291bfa23.htm">
+        <HelpTOCNode Title="GetArrayFast Method " Url="html/766740db-8710-8000-d4a8-106f0f56e457.htm" />
+        <HelpTOCNode Title="SetVectorDirect Method " Url="html/00ea1a30-fd34-9a3e-ede7-f852d1f33bbd.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="LogicalVector Fields" Url="html/438008a2-b319-bd37-8b4c-39f451224c4c.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bd7936d7-2a6a-4238-9f06-ee295bc75826" Title="Matrix(T) Class" Url="html/72bea9e6-d36e-a2ef-6526-aa9d2d703f97.htm">
+      <HelpTOCNode Id="5a12fc25-9904-48e4-8a6b-487d0855effb" Title="Matrix(T) Constructor " Url="html/c165bb57-55be-65ff-011c-d94dca41cf0d.htm">
+        <HelpTOCNode Title="Matrix(T) Constructor (REngine, IntPtr)" Url="html/9c713c14-8fc7-73f6-8c96-976387d08aa9.htm" />
+        <HelpTOCNode Title="Matrix(T) Constructor (REngine, SymbolicExpressionType, T[,])" Url="html/6cd4cced-c815-3d85-854b-f770d2233511.htm" />
+        <HelpTOCNode Title="Matrix(T) Constructor (REngine, SymbolicExpressionType, Int32, Int32)" Url="html/042e8bd6-24ae-3d57-f62a-c58145631a26.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f14655fe-27cf-4f2c-9274-0dea555330ed" Title="Matrix(T) Properties" Url="html/3585669e-b2e2-cdf6-6812-b0c45659cd80.htm">
+        <HelpTOCNode Title="ColumnCount Property " Url="html/b8318d26-406e-3522-e1d6-78037952f5d6.htm" />
+        <HelpTOCNode Title="ColumnNames Property " Url="html/e5fb865b-3938-af99-2a74-11c8fe281fde.htm" />
+        <HelpTOCNode Title="DataPointer Property " Url="html/3d699c9b-34dd-41b9-48ec-c1811a92070a.htm" />
+        <HelpTOCNode Title="DataSize Property " Url="html/d7bfc5b3-798e-382b-181c-1e910cc40b4c.htm" />
+        <HelpTOCNode Id="b8407d40-eefc-4b1f-9696-c67243d86b2b" Title="Item Property " Url="html/9eace79d-841d-e162-ae58-48af87b0c541.htm">
+          <HelpTOCNode Title="Item Property (Int32, Int32)" Url="html/6d2b7f09-ba02-cd95-a80b-4f78007aceea.htm" />
+          <HelpTOCNode Title="Item Property (String, String)" Url="html/e983242e-ec3e-34fb-d3b3-2f766e135199.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ItemCount Property " Url="html/393e8307-b636-a11d-68b5-42a1b5e2844b.htm" />
+        <HelpTOCNode Title="RowCount Property " Url="html/f789e265-aaf6-c439-ec9a-b1cad725fad9.htm" />
+        <HelpTOCNode Title="RowNames Property " Url="html/d95286d8-84ff-33a8-36df-cfb6ee25d860.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8499205d-34e6-413a-b4dd-cb6965c18292" Title="Matrix(T) Methods" Url="html/56f0fe86-9197-23f3-08e1-545ad46a2f56.htm">
+        <HelpTOCNode Title="CopyTo Method " Url="html/fbc19296-7736-dd9c-b048-21269a9abb0a.htm" />
+        <HelpTOCNode Title="GetArrayFast Method " Url="html/51af3d74-353f-53f6-08f3-221e787ca98b.htm" />
+        <HelpTOCNode Title="GetOffset Method " Url="html/6925aaab-90c3-3c1b-6da4-fdc0c192b0f8.htm" />
+        <HelpTOCNode Title="InitMatrixFastDirect Method " Url="html/7c876204-d541-0ed4-a392-f91aee8c0be4.htm" />
+        <HelpTOCNode Title="ToArray Method " Url="html/2b9762df-62ed-2580-333c-579d60e9dd54.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Matrix(T) Fields" Url="html/aff0b398-8a71-98cb-b0be-2e44cd248b0b.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e245c5ed-ee65-41fa-80fc-126a3aeb410f" Title="NumericMatrix Class" Url="html/56d99c7f-5752-e6d0-aaed-ca4cd05aeba7.htm">
+      <HelpTOCNode Id="b04a20ab-a8b6-48ed-b5bb-b87426de158d" Title="NumericMatrix Constructor " Url="html/308fce88-e6bc-e678-7ef2-7fbc988c3a85.htm">
+        <HelpTOCNode Title="NumericMatrix Constructor (REngine, Double[,])" Url="html/ba2fb5c8-13cb-2ab2-7b24-e6c9b1978a01.htm" />
+        <HelpTOCNode Title="NumericMatrix Constructor (REngine, IntPtr)" Url="html/584ae20c-a91a-6c8f-c527-a4087f254107.htm" />
+        <HelpTOCNode Title="NumericMatrix Constructor (REngine, Int32, Int32)" Url="html/13676629-9322-c639-ac3d-4164b6027c9a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7dfc9339-c9bd-4dd6-a051-ec7fc71ea103" Title="NumericMatrix Properties" Url="html/72ac1625-3a20-965e-f707-18aac05b9492.htm">
+        <HelpTOCNode Title="DataSize Property " Url="html/dd920965-f7d3-8cfd-a841-8bd60a283190.htm" />
+        <HelpTOCNode Id="17262f9b-735f-4e65-a16b-6cd01d68193d" Title="Item Property " Url="html/170f8365-f59d-2657-41ba-46f1ccb03bb6.htm">
+          <HelpTOCNode Title="Item Property (Int32, Int32)" Url="html/e0ee47e4-dfc0-0195-78bb-22f5d6750211.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="6e6fdfa0-aa1c-42f9-ab95-b657597772fd" Title="NumericMatrix Methods" Url="html/9a346712-414c-3644-0f75-741cec17da4f.htm">
+        <HelpTOCNode Title="GetArrayFast Method " Url="html/94344d62-294d-9f95-3b63-bdf2fba43abb.htm" />
+        <HelpTOCNode Title="InitMatrixFastDirect Method " Url="html/53ced4fc-979d-b182-cb84-a3996f8667fd.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="NumericMatrix Fields" Url="html/f656554f-585a-ed58-d91f-a362068d67d3.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e6882ce7-93e5-4072-bea6-38a9f24ca7b9" Title="NumericVector Class" Url="html/1e61fa52-e116-5f20-a07b-9cf16f33c282.htm">
+      <HelpTOCNode Id="461e1007-5b75-453d-b72c-e05cafd5fe75" Title="NumericVector Constructor " Url="html/da845dec-3900-6a6d-5da3-2f8b1e0635f0.htm">
+        <HelpTOCNode Title="NumericVector Constructor (REngine, IEnumerable(Double))" Url="html/8974cc04-2e13-8f9d-431f-68a12dc6f679.htm" />
+        <HelpTOCNode Title="NumericVector Constructor (REngine, Double[])" Url="html/5a3b6b2b-dc22-4871-113d-50b2ff1b5e54.htm" />
+        <HelpTOCNode Title="NumericVector Constructor (REngine, Int32)" Url="html/88a617ef-f74b-aa7f-ef7b-1308dc68c1ec.htm" />
+        <HelpTOCNode Title="NumericVector Constructor (REngine, IntPtr)" Url="html/676db2a2-2da4-972d-0afc-82698c025fdc.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c26390fe-3b9f-4bd4-970a-14f456aaf3e1" Title="NumericVector Properties" Url="html/cf55582f-9b32-1cb9-824a-48519192c4f3.htm">
+        <HelpTOCNode Title="DataSize Property " Url="html/61dc7a91-feb6-d3e1-5f7e-6fc83df5d141.htm" />
+        <HelpTOCNode Id="5cd88dd2-4e48-4806-ab5b-dad95475e63e" Title="Item Property " Url="html/7e1b735a-a28b-b97a-9eb1-c59fddd7da67.htm">
+          <HelpTOCNode Title="Item Property (Int32)" Url="html/c5c8a12a-2c45-a67c-8b73-a2531f30a84d.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="9303675c-fb1a-46b3-805f-2927aa4fc4d2" Title="NumericVector Methods" Url="html/f4e03028-a5da-fac1-d23e-f0e96c8f4b4d.htm">
+        <HelpTOCNode Title="CopyTo Method " Url="html/eb0a693c-53cd-f6f6-b3ad-ce329297b307.htm" />
+        <HelpTOCNode Title="GetArrayFast Method " Url="html/17afd960-813d-4dff-42e1-3378e48fd52b.htm" />
+        <HelpTOCNode Title="SetVectorDirect Method " Url="html/482b322f-5f94-3a48-a089-db7df8f8772e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="NumericVector Fields" Url="html/c9fd227c-6e24-8620-71f5-d3eaf6711f13.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2f4fdb8f-2c7b-475d-96e0-77bdd714c377" Title="Pairlist Class" Url="html/7cf21e75-a8e5-69da-654c-8bb6d193d38b.htm">
+      <HelpTOCNode Title="Pairlist Constructor " Url="html/d04d8bf2-fd3a-59f4-97b2-79936291baa1.htm" />
+      <HelpTOCNode Id="06631397-1773-4469-b0d5-a6e7820ddbb0" Title="Pairlist Properties" Url="html/43f6dc12-22f4-d6f4-3988-7f295ccf38fe.htm">
+        <HelpTOCNode Title="Count Property " Url="html/2fe5a911-98cd-5c37-65bd-936296e0dd7c.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="396cb5c1-fae4-477f-a1ef-e7882141f097" Title="Pairlist Methods" Url="html/e4269f4d-6ced-a79d-eda8-f918d8e05598.htm">
+        <HelpTOCNode Title="GetEnumerator Method " Url="html/86c97a76-8b4e-ff7a-b454-dcf768558737.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Pairlist Fields" Url="html/13451dda-27ea-61c3-81c5-9cb3cf84aecb.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ceadc13d-41b0-4aad-9309-8590b1dd5568" Title="ParseException Class" Url="html/479a2177-c266-eda2-7ffa-053f93d9095f.htm">
+      <HelpTOCNode Id="a5afc33e-7b04-4024-8b28-86cc0a1970d5" Title="ParseException Constructor " Url="html/588bf460-86b2-74c2-5a78-3fc3eeb09994.htm">
+        <HelpTOCNode Title="ParseException Constructor (SerializationInfo, StreamingContext)" Url="html/9426ac75-1103-b7a2-70ac-dee871e7452f.htm" />
+        <HelpTOCNode Title="ParseException Constructor (ParseStatus, String, String)" Url="html/497cfc1e-2904-1df0-24c5-8b91d3ead03f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0e94d61d-2d6b-4ee3-ab4c-cfa6da6b5103" Title="ParseException Properties" Url="html/8d2b3881-0f88-0331-8f7d-7e3d4356c897.htm">
+        <HelpTOCNode Title="ErrorStatement Property " Url="html/8f529765-0ff5-ab70-4fff-7b1ef2ca4ed3.htm" />
+        <HelpTOCNode Title="Status Property " Url="html/4db9822c-7935-a36e-b796-f999e2189df5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0b4f3685-3f56-4ae9-9d52-918a81d07bc1" Title="ParseException Methods" Url="html/d7f2f685-ded9-3c82-dd2b-7d3908a76c1a.htm">
+        <HelpTOCNode Title="GetObjectData Method " Url="html/59d53563-12f2-a45d-c77f-501f67b6b211.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ParseException Events" Url="html/0c679f73-e66d-e916-8abc-d863e3774017.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1f96d759-7550-409b-92d7-2edf4eb4f918" Title="RawMatrix Class" Url="html/2d3bcddd-b058-d737-adc8-adce49eee111.htm">
+      <HelpTOCNode Id="5f39827b-e806-4fd8-9b82-69bea6a12e6f" Title="RawMatrix Constructor " Url="html/aae8bcae-d439-cc9d-8379-3bd6ff2cdda5.htm">
+        <HelpTOCNode Title="RawMatrix Constructor (REngine, Byte[,])" Url="html/9b96a37d-0b7c-fcca-8569-77fc84ea72f1.htm" />
+        <HelpTOCNode Title="RawMatrix Constructor (REngine, IntPtr)" Url="html/f22eca13-915d-e3cd-8cb4-3141066829af.htm" />
+        <HelpTOCNode Title="RawMatrix Constructor (REngine, Int32, Int32)" Url="html/1a7ff4a2-ff92-9416-1686-68966c15e475.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4b9af193-9698-4d79-8627-5124807b8b38" Title="RawMatrix Properties" Url="html/6033e6f9-ca95-3539-905b-b7a83ed21e52.htm">
+        <HelpTOCNode Title="DataSize Property " Url="html/cdd594cf-f4b7-4d58-41dc-781df5447d2b.htm" />
+        <HelpTOCNode Id="b7ca5fb4-1d3e-4b4c-8bdf-5e6eb9c3fd1d" Title="Item Property " Url="html/c7b3b21d-ac8e-aa2c-a0bf-e05e86f3b6a5.htm">
+          <HelpTOCNode Title="Item Property (Int32, Int32)" Url="html/897b7182-e61a-ed70-6e2e-7446449db9eb.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="bca32c02-25e6-4b62-984c-d40017397f88" Title="RawMatrix Methods" Url="html/13e424be-9359-c6d5-d2d7-b8924e320182.htm">
+        <HelpTOCNode Title="GetArrayFast Method " Url="html/a07444b7-5613-dae3-f540-111a01dae36f.htm" />
+        <HelpTOCNode Title="InitMatrixFastDirect Method " Url="html/094a6e3d-f444-da10-14af-1a562a7ce43e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="RawMatrix Fields" Url="html/939eb432-fae4-b3fc-3a18-54476e4d60f8.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="89ac7614-3ee7-4abb-864e-b61f7e7f7916" Title="RawVector Class" Url="html/a4555d5b-98ac-590a-6de6-2c940979eef5.htm">
+      <HelpTOCNode Id="13a466da-75c3-419c-aae8-5c327e70f4ad" Title="RawVector Constructor " Url="html/e7264e16-36b8-1444-7cd1-0c13d443fb22.htm">
+        <HelpTOCNode Title="RawVector Constructor (REngine, Byte[])" Url="html/62b87acc-1895-6a4b-a7c3-13b764d63cb1.htm" />
+        <HelpTOCNode Title="RawVector Constructor (REngine, IEnumerable(Byte))" Url="html/fc7cbc1f-ba7a-6871-36bc-b67bf69a27f0.htm" />
+        <HelpTOCNode Title="RawVector Constructor (REngine, Int32)" Url="html/3d3caa81-3b9d-d14f-9fb9-1fb181b3fff4.htm" />
+        <HelpTOCNode Title="RawVector Constructor (REngine, IntPtr)" Url="html/994dae1f-ad6a-a6e9-a1ac-fb9ac41e3f98.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0866e069-45ab-43ca-af00-0509603dc9e1" Title="RawVector Properties" Url="html/e211849b-5f12-bb82-a08e-59e12b22442d.htm">
+        <HelpTOCNode Title="DataSize Property " Url="html/f51bcdd0-cebb-c320-670e-e26b7f1bc749.htm" />
+        <HelpTOCNode Id="fcbe7fbe-762f-4ba4-8d27-b7952af34870" Title="Item Property " Url="html/f9d2865a-9424-fc1b-7fe6-98869d02455e.htm">
+          <HelpTOCNode Title="Item Property (Int32)" Url="html/7eeb682a-92c8-fb8e-33b8-3574c69efef2.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="b61537a4-eceb-4af1-8ba0-b26e9ddc8c6e" Title="RawVector Methods" Url="html/5b803fc4-a4c2-f803-cff0-cbe41e751639.htm">
+        <HelpTOCNode Title="CopyTo Method " Url="html/cb437e28-2491-8431-0df6-ecb365fdfed8.htm" />
+        <HelpTOCNode Title="GetArrayFast Method " Url="html/8ae9a710-4b4f-136a-8da0-a18937e611c8.htm" />
+        <HelpTOCNode Title="SetVectorDirect Method " Url="html/5f161aeb-f811-cd54-7ff6-29c90866825a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="RawVector Fields" Url="html/7f0d4e2a-833c-7da9-a834-cb1b516ecc50.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="546703bc-e0dd-4186-83a3-3a93c302c010" Title="REngine Class" Url="html/a15582f4-3a6b-baf8-2f82-5717f08ea8a6.htm">
+      <HelpTOCNode Title="REngine Constructor " Url="html/10410f7c-afd7-a098-80ca-0b5e61d11f5d.htm" />
+      <HelpTOCNode Id="91d64a76-821e-4617-8aad-4eac81eb9abb" Title="REngine Properties" Url="html/332f01f1-62bb-6d51-7090-f150eee3bd8d.htm">
+        <HelpTOCNode Title="AutoPrint Property " Url="html/444cf9a5-68f9-8e60-e03a-b50cbd0c2a31.htm" />
+        <HelpTOCNode Title="BaseNamespace Property " Url="html/97f25755-61be-d678-b489-0fd2fdfc21a3.htm" />
+        <HelpTOCNode Title="Disposed Property " Url="html/063202b5-ef7d-c8c1-97d2-729c3a20d69a.htm" />
+        <HelpTOCNode Title="DllVersion Property " Url="html/53a365e4-9d0c-d6b6-80e5-f8ede18ec5f9.htm" />
+        <HelpTOCNode Title="EmptyEnvironment Property " Url="html/73480c39-07f5-cb78-f58d-7aade9c466be.htm" />
+        <HelpTOCNode Title="EnableLock Property " Url="html/a2e1c397-8f7f-5902-ad6d-8bb3f0d93790.htm" />
+        <HelpTOCNode Title="EngineName Property " Url="html/978376f4-a7f3-5b74-5e86-e2a72560eafd.htm" />
+        <HelpTOCNode Title="GlobalEnvironment Property " Url="html/6c0ec66b-9570-53a1-ffdf-5fddc59eef24.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/428a8dc0-932a-85a4-b606-1e958feedf09.htm" />
+        <HelpTOCNode Title="IsRunning Property " Url="html/80c5c32e-c850-81d4-b616-fa6ed74b7a37.htm" />
+        <HelpTOCNode Title="NaString Property " Url="html/2676bd61-face-4a0f-a175-bbb887cb0269.htm" />
+        <HelpTOCNode Title="NaStringPointer Property " Url="html/7c2236bf-9328-4c9e-a991-e0469acfe556.htm" />
+        <HelpTOCNode Title="NilValue Property " Url="html/406f6f7a-bcfb-e06f-0637-21ad9b680f99.htm" />
+        <HelpTOCNode Title="UnboundValue Property " Url="html/8cec4bc6-ddc1-b92d-c2dd-7cc15a773867.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e4721ce5-3853-4364-b24d-0412ecda98f9" Title="REngine Methods" Url="html/f08c4813-ff97-55bd-1546-054be426476c.htm">
+        <HelpTOCNode Title="BuildRArgv Method " Url="html/33b2afc2-da7b-391a-9647-80df4d5e3c7a.htm" />
+        <HelpTOCNode Title="ClearGlobalEnvironment Method " Url="html/2220d279-9dd8-e34e-6678-9cd72b69885d.htm" />
+        <HelpTOCNode Title="CreateFromNativeSexp Method " Url="html/d6041ed0-5594-cd59-3411-fd6dedfbfbb1.htm" />
+        <HelpTOCNode Title="Defer Method " Url="html/3eaf12e2-2374-5247-ea37-03b6d4b35621.htm" />
+        <HelpTOCNode Id="ad7a9a73-132b-4b4f-aa9e-5082f824d464" Title="Dispose Method " Url="html/22a8e410-bae3-4bbf-f513-1a2c13ea990f.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/59603eb9-8d65-1d47-6975-938d82d702be.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="DoDotNetGarbageCollection Method " Url="html/48b2c7c0-d524-d865-8456-7108265064ea.htm" />
+        <HelpTOCNode Id="0c5fdeb7-284f-4275-9bee-89971f91c6c6" Title="Evaluate Method " Url="html/7ba98b1b-a539-210e-9ed4-cf0b89207845.htm">
+          <HelpTOCNode Title="Evaluate Method (Stream)" Url="html/39c6bb6a-97c4-4a5c-7452-bdc8edb6214d.htm" />
+          <HelpTOCNode Title="Evaluate Method (String)" Url="html/5222c65c-0d6d-dc3f-049f-3be75839674f.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ForceGarbageCollection Method " Url="html/5a226eed-247f-69e5-67ac-5fe04dc325ef.htm" />
+        <HelpTOCNode Title="GetInstance Method " Url="html/05e4dfd7-e3e7-1fe7-bff1-e8e3725c508a.htm" />
+        <HelpTOCNode Title="GetPredefinedSymbol Method " Url="html/0cb37f1d-05ee-f953-285d-ef06a9cdbeef.htm" />
+        <HelpTOCNode Id="7bd37f02-4635-4979-a63e-7a2c9a512792" Title="GetSymbol Method " Url="html/7c6dca2e-7f65-d99b-185e-5a4590ff2f66.htm">
+          <HelpTOCNode Title="GetSymbol Method (String)" Url="html/aec2590e-e933-cb40-135d-f2c5ff412b67.htm" />
+          <HelpTOCNode Title="GetSymbol Method (String, REnvironment)" Url="html/55de6b4c-c61b-a2f9-89ad-94434d3daeb7.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="IndexOfAll Method " Url="html/e4b5687b-31fc-f884-d2cc-c5f82c782098.htm" />
+        <HelpTOCNode Title="Initialize Method " Url="html/a4067898-eb5b-7278-5200-1d96cc9a9d0b.htm" />
+        <HelpTOCNode Title="OnDisposing Method " Url="html/913fb49d-7821-a758-58a4-3fb72939169e.htm" />
+        <HelpTOCNode Title="ProcessRDllFileName Method " Url="html/7dd7f1eb-8568-0de5-3715-daae7549d943.htm" />
+        <HelpTOCNode Title="SetCommandLineArguments Method " Url="html/8446edfa-3304-30e2-572a-fdbc902e779c.htm" />
+        <HelpTOCNode Title="SetEnvironmentVariables Method " Url="html/f86829b9-c219-e9e0-6f55-4a00bac5f621.htm" />
+        <HelpTOCNode Id="87db20e7-3add-4784-bc0e-533f5e1eaaa5" Title="SetSymbol Method " Url="html/444cd672-b5ca-7c19-29c4-43f4e31fa2f6.htm">
+          <HelpTOCNode Title="SetSymbol Method (String, SymbolicExpression)" Url="html/ca8cf2ec-5385-05ba-677c-afb17acaca94.htm" />
+          <HelpTOCNode Title="SetSymbol Method (String, SymbolicExpression, REnvironment)" Url="html/70e673da-6ed9-4419-9527-c059a9c1977d.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="120a27ae-0050-4c44-b902-bd73b1e5fcff" Title="REngine Events" Url="html/457d1ebd-1feb-15e3-d0bb-88fa5ac68e29.htm">
+        <HelpTOCNode Title="Disposing Event" Url="html/9b15401e-83d1-c0cb-8e42-f7568b1ebb54.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7f306906-4bfd-43b5-85f5-5b2307a3b799" Title="REngineExtension Class" Url="html/22f9cef5-4dda-da7b-6fbe-c962593ef6b5.htm">
+      <HelpTOCNode Id="e4cbae57-9f13-4682-95ca-f5bc2e7a5496" Title="REngineExtension Methods" Url="html/8a0c129f-1f7b-6a56-8b17-68cdbbe2b82a.htm">
+        <HelpTOCNode Title="CreateCharacter Method " Url="html/727a7e32-479a-bcd8-d0ad-6150a7efd134.htm" />
+        <HelpTOCNode Id="1b3876fa-6188-4e23-b8c5-afda37d05639" Title="CreateCharacterMatrix Method " Url="html/ce3a861d-83a1-3566-1013-0bda77bfbc93.htm">
+          <HelpTOCNode Title="CreateCharacterMatrix Method (REngine, String[,])" Url="html/451b4a49-36e4-c424-373a-549d8624cc4a.htm" />
+          <HelpTOCNode Title="CreateCharacterMatrix Method (REngine, Int32, Int32)" Url="html/11230e7a-c331-1c7d-a9db-4f222c0f3c6b.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="30ab2058-7159-4a1b-a789-682a243802a5" Title="CreateCharacterVector Method " Url="html/b1fb6c42-afd4-db7f-db19-d116156694cd.htm">
+          <HelpTOCNode Title="CreateCharacterVector Method (REngine, IEnumerable(String))" Url="html/5e999a6f-2090-d94b-d088-d7d5ce52438e.htm" />
+          <HelpTOCNode Title="CreateCharacterVector Method (REngine, Int32)" Url="html/4b1dc6a7-350c-86fa-3c78-e2c08d8c4ded.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CreateComplex Method " Url="html/4c9090ad-ef1f-0e04-d95a-7fbcae5446a7.htm" />
+        <HelpTOCNode Id="cb585a57-3584-42ef-84f2-32bbb1567c3a" Title="CreateComplexMatrix Method " Url="html/d3f580ac-1b91-6af1-e25d-467140c38618.htm">
+          <HelpTOCNode Title="CreateComplexMatrix Method (REngine, Complex[,])" Url="html/dd640479-2508-3407-bb07-27ad2905ea64.htm" />
+          <HelpTOCNode Title="CreateComplexMatrix Method (REngine, Int32, Int32)" Url="html/b5868baa-082e-542d-1a92-7897b5c4db56.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="43e4d91f-397e-4c6c-ae72-85053ccb0288" Title="CreateComplexVector Method " Url="html/8615b545-63c5-2bee-e883-0ddc092baeab.htm">
+          <HelpTOCNode Title="CreateComplexVector Method (REngine, IEnumerable(Complex))" Url="html/b3b39388-2704-3c45-f691-aa698c9c8631.htm" />
+          <HelpTOCNode Title="CreateComplexVector Method (REngine, Int32)" Url="html/87339113-9026-60b9-7be2-2f75016f03c7.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CreateDataFrame Method " Url="html/d4309da6-78c3-dd7d-b6a1-6be753575b22.htm" />
+        <HelpTOCNode Title="CreateEnvironment Method " Url="html/b05fc79e-7b7a-62e4-4e0b-53635c0d1815.htm" />
+        <HelpTOCNode Title="CreateInteger Method " Url="html/02004796-52c2-8e88-2ebf-858c7a3d1d0a.htm" />
+        <HelpTOCNode Id="80e3f4f4-0e06-442f-a3b3-862a3b97e6a2" Title="CreateIntegerMatrix Method " Url="html/8369cb4b-729b-4797-703e-0ab6994f1bdf.htm">
+          <HelpTOCNode Title="CreateIntegerMatrix Method (REngine, Int32[,])" Url="html/5d8db461-f605-9100-ec41-8f24bbfc9531.htm" />
+          <HelpTOCNode Title="CreateIntegerMatrix Method (REngine, Int32, Int32)" Url="html/439d980d-7e48-56bb-14ef-8b702f1d86f6.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e0228f9e-8dfb-4610-998b-dde900641c66" Title="CreateIntegerVector Method " Url="html/d006f560-c502-701c-b224-f7378dd2931e.htm">
+          <HelpTOCNode Title="CreateIntegerVector Method (REngine, IEnumerable(Int32))" Url="html/1c1d191d-6785-69c1-17b5-11a967303936.htm" />
+          <HelpTOCNode Title="CreateIntegerVector Method (REngine, Int32)" Url="html/f7b90cd0-e936-addd-50f9-27c523a1c56e.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CreateIsolatedEnvironment Method " Url="html/39b858f9-9a14-539b-6e6b-86054aed435c.htm" />
+        <HelpTOCNode Title="CreateLogical Method " Url="html/59ad540b-4c43-4530-1d78-d4f362e228e5.htm" />
+        <HelpTOCNode Id="5d001c73-7ec3-4ad4-a6ae-2c59ca2c56d8" Title="CreateLogicalMatrix Method " Url="html/9065cc82-524e-390b-a412-b3cb178ee97b.htm">
+          <HelpTOCNode Title="CreateLogicalMatrix Method (REngine, Boolean[,])" Url="html/48bc8d16-9f47-6eb9-c9fa-3d838c5c2b7e.htm" />
+          <HelpTOCNode Title="CreateLogicalMatrix Method (REngine, Int32, Int32)" Url="html/6ec5df1d-b4d2-c010-f775-6f990a23f5de.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d789d8d4-adac-43b2-923f-a1369fe16f8e" Title="CreateLogicalVector Method " Url="html/782f41ce-e8f2-021c-705e-a59b9024cd6a.htm">
+          <HelpTOCNode Title="CreateLogicalVector Method (REngine, IEnumerable(Boolean))" Url="html/ef173d19-1fec-d240-d269-3ab1fd2c155b.htm" />
+          <HelpTOCNode Title="CreateLogicalVector Method (REngine, Int32)" Url="html/f79044ed-2ae3-473b-852e-6df3a6e07e27.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CreateNumeric Method " Url="html/54b96ba9-8285-1488-c599-e5aa3393a507.htm" />
+        <HelpTOCNode Id="659bc82a-790b-407c-add6-dc896fbf88e9" Title="CreateNumericMatrix Method " Url="html/ae72d3ad-5144-0b7d-8c87-3462554754bf.htm">
+          <HelpTOCNode Title="CreateNumericMatrix Method (REngine, Double[,])" Url="html/fa40bb96-7704-5d27-119b-14c0c69e4191.htm" />
+          <HelpTOCNode Title="CreateNumericMatrix Method (REngine, Int32, Int32)" Url="html/259b073e-4d37-2c6c-8fa4-6b2c5517ccd5.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c66fb7fd-5ed7-4a54-a4c8-0c044485b43f" Title="CreateNumericVector Method " Url="html/0daabc37-013f-7b45-09d6-7ad158677565.htm">
+          <HelpTOCNode Title="CreateNumericVector Method (REngine, IEnumerable(Double))" Url="html/8bf61200-5bff-25ce-11f5-80524454ea57.htm" />
+          <HelpTOCNode Title="CreateNumericVector Method (REngine, Int32)" Url="html/916d3343-1958-4c1b-c1fb-6a020f1acd86.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CreateRaw Method " Url="html/d4b2519c-4729-88de-a786-147762aeabaf.htm" />
+        <HelpTOCNode Id="a9d8a014-b565-4208-8c3f-d1b772824f65" Title="CreateRawMatrix Method " Url="html/42edacd5-1952-3dde-e760-c61de07f821b.htm">
+          <HelpTOCNode Title="CreateRawMatrix Method (REngine, Byte[,])" Url="html/0255f199-4e92-d336-7d3b-91007607f3ea.htm" />
+          <HelpTOCNode Title="CreateRawMatrix Method (REngine, Int32, Int32)" Url="html/ed3afc63-4283-4122-331a-d4351b584ff1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="60ab5c0e-dc6d-4169-91cc-1a18a95a7e17" Title="CreateRawVector Method " Url="html/73132454-0abf-3570-a860-b64cc9a60154.htm">
+          <HelpTOCNode Title="CreateRawVector Method (REngine, IEnumerable(Byte))" Url="html/631a6ade-8882-635c-101a-4f6169b37986.htm" />
+          <HelpTOCNode Title="CreateRawVector Method (REngine, Int32)" Url="html/0e38519c-8422-ca96-13f0-bb6ec95b333c.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d589a672-eea1-4cac-bef1-3b7a1d8e3e58" Title="REnvironment Class" Url="html/1c4b1f57-ad65-97d8-c05a-62fc0b0029c5.htm">
+      <HelpTOCNode Id="a135b9b9-1499-44a8-ba6f-9bc330b4d0a2" Title="REnvironment Constructor " Url="html/af042db6-5581-d739-78b2-0a54d13597fa.htm">
+        <HelpTOCNode Title="REnvironment Constructor (REngine, REnvironment)" Url="html/e6222060-b779-532d-0a20-4df94542aa98.htm" />
+        <HelpTOCNode Title="REnvironment Constructor (REngine, IntPtr)" Url="html/bdffc6e4-ebdd-7185-c32a-659409339794.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="66e8bdec-112f-4333-a91f-666288a7c428" Title="REnvironment Properties" Url="html/f14f56ea-8bdd-6b9b-8a73-a95ca92924fe.htm">
+        <HelpTOCNode Title="Parent Property " Url="html/2db68064-7740-f691-bd12-b39f7c85401f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6f3b58ad-a42b-4ce4-910c-45633c52bc33" Title="REnvironment Methods" Url="html/a1f607f8-27f1-eefd-0065-e504f1235f0f.htm">
+        <HelpTOCNode Title="GetSymbol Method " Url="html/a08e5410-3d61-4599-5f46-bc67b1160dab.htm" />
+        <HelpTOCNode Title="GetSymbolNames Method " Url="html/87668035-8d4c-6766-ca69-4e65408092e0.htm" />
+        <HelpTOCNode Title="SetSymbol Method " Url="html/d744f180-9b26-4a5a-db0a-2e2c1f9fd103.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="REnvironment Fields" Url="html/33f319e1-ae2a-6b01-fd23-4abeafd70ae0.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="36d78ab8-b204-485b-9eae-bfe9d6265360" Title="S4Object Class" Url="html/bcc158e0-a612-2fcb-55ad-d83e49ea798a.htm">
+      <HelpTOCNode Title="S4Object Constructor " Url="html/4830f2e3-ab85-6a08-57d3-2c3c629937bf.htm" />
+      <HelpTOCNode Id="09ba9d12-b1a4-4b82-8cb0-78316a108954" Title="S4Object Properties" Url="html/b779b919-b766-12e2-7a80-39d5c5dc4d12.htm">
+        <HelpTOCNode Title="Item Property " Url="html/f75094c6-b967-52e3-a604-8808203ae33c.htm" />
+        <HelpTOCNode Title="SlotCount Property " Url="html/89544e0b-2773-0fb9-6e6c-8bd139b52e7c.htm" />
+        <HelpTOCNode Title="SlotNames Property " Url="html/48bb85fd-0202-47a7-3969-3f03c50ef1e2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="41faa941-893a-4efa-9f9c-9a70df74d659" Title="S4Object Methods" Url="html/1a92fb1b-3220-b498-a8fa-7a7505ea33aa.htm">
+        <HelpTOCNode Title="GetClassDefinition Method " Url="html/aabd0869-d95d-679a-e783-01a293440da1.htm" />
+        <HelpTOCNode Title="GetSlotTypes Method " Url="html/1055bb16-0454-c938-43fb-7380d964a543.htm" />
+        <HelpTOCNode Title="HasSlot Method " Url="html/bb2b2d37-8dc2-7a82-3d0e-5eba63856fc5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="S4Object Fields" Url="html/cb672f63-cbb9-9c34-ba65-d24a736205d4.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f486c747-3285-4f7c-a7d7-e76eb605d16a" Title="SpecialFunction Class" Url="html/025a2ef9-292d-806c-db48-7049a22f789d.htm">
+      <HelpTOCNode Title="SpecialFunction Constructor " Url="html/16d5ebd3-41e8-2699-526b-71f33a4bf8e4.htm" />
+      <HelpTOCNode Title="SpecialFunction Properties" Url="html/fa0ce6c3-6452-ad18-6a42-8550f4f42160.htm" />
+      <HelpTOCNode Id="23994d37-b9c9-4fe5-bf6d-5cc8294495da" Title="SpecialFunction Methods" Url="html/f1be3c54-99cb-67ed-e757-ee2726425801.htm">
+        <HelpTOCNode Id="a9fc0575-13a1-432f-abae-fcf851976fff" Title="Invoke Method " Url="html/53882c61-142b-9e7f-d250-806cd7ce4d5c.htm">
+          <HelpTOCNode Title="Invoke Method (IDictionary(String, SymbolicExpression))" Url="html/4649f341-0cfa-1458-473f-c9150d2a24ff.htm" />
+          <HelpTOCNode Title="Invoke Method (SymbolicExpression[])" Url="html/a11f7f87-97e3-a356-7894-de1f3f5134c8.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="SpecialFunction Fields" Url="html/31e08e15-ee2e-4dd1-6b0d-a41de5267028.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="901ec9f2-33a9-4873-9882-300ebcf5c826" Title="StartupParameter Class" Url="html/3721aa9e-dbd0-77d2-bd81-7f4f87308cfd.htm">
+      <HelpTOCNode Title="StartupParameter Constructor " Url="html/19d116b2-3b57-428a-c018-96effdc64707.htm" />
+      <HelpTOCNode Id="e25bded3-6727-4dc2-a260-c0a1a45a5259" Title="StartupParameter Properties" Url="html/ac7becb7-3d7b-9133-7f94-12be8d68f3b0.htm">
+        <HelpTOCNode Title="CharacterMode Property " Url="html/30108d12-4ea6-37be-f9ad-64a3d51bf7c6.htm" />
+        <HelpTOCNode Title="DebugInitFile Property " Url="html/796ff56c-bc88-c1ce-a9f2-4ebb8677128e.htm" />
+        <HelpTOCNode Title="Home Property " Url="html/fe6d1781-79ff-b435-0ccd-259b29588921.htm" />
+        <HelpTOCNode Title="Interactive Property " Url="html/71b90f79-2c80-74ab-f011-68c9422cc333.htm" />
+        <HelpTOCNode Title="LoadInitFile Property " Url="html/1518ec8d-d510-bce7-bd6b-4315cc240fbb.htm" />
+        <HelpTOCNode Title="LoadSiteFile Property " Url="html/d4dd1391-902c-276f-2d94-ac3989ca1c28.htm" />
+        <HelpTOCNode Title="MaxCellSize Property " Url="html/9e2352ee-d021-e1d5-29b5-7730ac314210.htm" />
+        <HelpTOCNode Title="MaxMemorySize Property " Url="html/82e7c703-37fd-417f-dbd8-8a00ddfb291b.htm" />
+        <HelpTOCNode Title="MinCellSize Property " Url="html/65fc2ebf-49bd-0a94-30fd-bb0080623081.htm" />
+        <HelpTOCNode Title="MinMemorySize Property " Url="html/cd7a8290-bb58-ca18-fe9f-dc3f33ab7861.htm" />
+        <HelpTOCNode Title="NoRenviron Property " Url="html/5f613e73-3546-fdd1-28e9-df5a6b257098.htm" />
+        <HelpTOCNode Title="Quiet Property " Url="html/41b5d2e2-59a4-ffda-29cd-6c5bd9529632.htm" />
+        <HelpTOCNode Title="RestoreAction Property " Url="html/d7c5a60d-a8b7-4a6d-4400-2e6dbb19c126.htm" />
+        <HelpTOCNode Title="RHome Property " Url="html/17773afb-8ae4-4b9f-0e1f-e01f168ac2f3.htm" />
+        <HelpTOCNode Title="SaveAction Property " Url="html/05ed2458-d670-7fd4-dd1c-9f952140e917.htm" />
+        <HelpTOCNode Title="Slave Property " Url="html/6d33b45b-e37c-3788-fcfe-771aedfbfeab.htm" />
+        <HelpTOCNode Title="StackSize Property " Url="html/f3e8189b-40e8-ef63-d648-3f4c7813c63b.htm" />
+        <HelpTOCNode Title="Verbose Property " Url="html/179b6cbf-6d5d-b54d-4b52-83f4d8329ff8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="StartupParameter Methods" Url="html/f709ce57-9df5-2852-e183-b576a83a15a2.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b5706203-18de-4e3c-8f69-f17b6edbf150" Title="Symbol Class" Url="html/fbb26b8c-92e9-6c3c-4070-68e60cbc857c.htm">
+      <HelpTOCNode Title="Symbol Constructor " Url="html/7ec78d26-1fc0-8238-9947-a02290248c4e.htm" />
+      <HelpTOCNode Id="19356ed0-5ed4-4e5d-9fa8-20c28f4f9253" Title="Symbol Properties" Url="html/e6d212ee-dc4a-7fe7-6031-e73deadf036c.htm">
+        <HelpTOCNode Title="Internal Property " Url="html/2fca3386-7026-a2aa-91b8-18895030d3e1.htm" />
+        <HelpTOCNode Title="PrintName Property " Url="html/69b3ea29-b4a2-7c57-8241-ea89055b769e.htm" />
+        <HelpTOCNode Title="Value Property " Url="html/dd207328-9a0b-b574-570a-f59af366a18f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Symbol Methods" Url="html/04fb677a-25ef-4d7c-b4b6-8e1a81687d88.htm" />
+      <HelpTOCNode Title="Symbol Fields" Url="html/c184d7f1-86f9-517e-d267-882568a18bca.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b7a81b70-ee36-42da-b448-a97802f0a062" Title="SymbolicExpression Class" Url="html/44f0f47e-d116-b340-b29e-a5b40d1fe01d.htm">
+      <HelpTOCNode Title="SymbolicExpression Constructor " Url="html/2b64b68d-4281-d248-258d-4fbc5dc58b3b.htm" />
+      <HelpTOCNode Id="74c4e078-1019-4862-82f5-a05697c93cde" Title="SymbolicExpression Properties" Url="html/3b9cad3e-c806-62ab-bd83-5d791a28f418.htm">
+        <HelpTOCNode Title="Engine Property " Url="html/9f3c0da2-948a-a71c-6cc4-675b7a943ff5.htm" />
+        <HelpTOCNode Title="IsInvalid Property " Url="html/e61a8937-e457-84e0-5671-00312c3a2650.htm" />
+        <HelpTOCNode Title="IsProtected Property " Url="html/dd25cc9f-fdb2-dcdf-4c94-bf454db185f8.htm" />
+        <HelpTOCNode Title="Type Property " Url="html/2eab7bc7-1c68-7a36-5ff9-94a72f8f4e39.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f35edd11-a62e-4de1-82a4-9f2180d0cbfb" Title="SymbolicExpression Methods" Url="html/6e64d465-a4a8-88be-6ab3-209e81a7efa7.htm">
+        <HelpTOCNode Id="273d44ab-6590-48bc-bd37-6ff0a7101e43" Title="Equals Method " Url="html/c518aa04-146f-c63e-afb0-b8ec780f0e0b.htm">
+          <HelpTOCNode Title="Equals Method (Object)" Url="html/87854068-8570-037d-3dfe-299bb8808f67.htm" />
+          <HelpTOCNode Title="Equals Method (SymbolicExpression)" Url="html/9fb6811e-1ab6-6fcb-42fe-ce7b6a847757.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetAttribute Method " Url="html/d974f439-ec5c-dd65-d8c7-21b4d2591df6.htm" />
+        <HelpTOCNode Title="GetAttributeNames Method " Url="html/0eea4d73-cc95-762a-d075-627057057903.htm" />
+        <HelpTOCNode Title="GetFunction(TDelegate) Method " Url="html/30a4111f-c06d-0648-6f83-ec75fe856508.htm" />
+        <HelpTOCNode Title="GetHashCode Method " Url="html/9d8208e6-df4a-490f-0f67-98c6904a467c.htm" />
+        <HelpTOCNode Title="GetMetaObject Method " Url="html/5f2ec51d-0911-cf01-9d41-a764f5664b7a.htm" />
+        <HelpTOCNode Title="op_Dynamic(K) Method " Url="html/549262f5-4355-272b-f906-0c1065065bc0.htm" />
+        <HelpTOCNode Title="op_DynamicAssignment(K) Method " Url="html/edfafc4c-2574-be8a-5511-458eb9c5981c.htm" />
+        <HelpTOCNode Title="Preserve Method " Url="html/3432dea2-b57b-8b95-2480-d85b9f7fac97.htm" />
+        <HelpTOCNode Title="ReleaseHandle Method " Url="html/a64b8781-77fe-0855-7fc9-6d8c523e6871.htm" />
+        <HelpTOCNode Title="SetAttribute Method " Url="html/1d9f535a-f1e1-96c6-798d-041e2a697748.htm" />
+        <HelpTOCNode Title="Unpreserve Method " Url="html/5c2e5eb9-5ee2-cc28-0e52-462e0f7ffa6b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SymbolicExpression Fields" Url="html/016f5c19-d9dd-029a-e4e3-40f9b440374a.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ecd69a56-1a2a-4440-97c6-a7fbd7b3b8f3" Title="SymbolicExpressionExtension Class" Url="html/771b4c05-9c6a-503a-dfe6-1c7fcf0c86e8.htm">
+      <HelpTOCNode Id="5113674f-37a4-455e-a78c-1d50bd6dd668" Title="SymbolicExpressionExtension Methods" Url="html/7d237f0a-0484-36c0-c745-a162116bdad2.htm">
+        <HelpTOCNode Title="AsCharacter Method " Url="html/4b9f9799-4286-8f4f-06ce-1de5a2013677.htm" />
+        <HelpTOCNode Title="AsCharacterMatrix Method " Url="html/e6be8f03-7200-f097-b0d4-7c5fa54b45c5.htm" />
+        <HelpTOCNode Title="AsComplex Method " Url="html/d3dabcb0-a61b-304d-c258-90c150df1149.htm" />
+        <HelpTOCNode Title="AsComplexMatrix Method " Url="html/dbc32a50-302d-c56f-28c1-ae61b03e45ad.htm" />
+        <HelpTOCNode Title="AsDataFrame Method " Url="html/2edeef47-ac06-3ba5-9888-ab8c3b05ff50.htm" />
+        <HelpTOCNode Title="AsEnvironment Method " Url="html/8f2e59a5-5ca5-c659-3842-c4bc912238c1.htm" />
+        <HelpTOCNode Title="AsExpression Method " Url="html/e2dc12c6-4274-253c-1bae-9668281d3439.htm" />
+        <HelpTOCNode Title="AsFactor Method " Url="html/7d92a569-5638-d1ca-8655-c5fa8e422104.htm" />
+        <HelpTOCNode Title="AsFunction Method " Url="html/e76ebd76-a7b4-498b-8b2b-13dcb9571d3f.htm" />
+        <HelpTOCNode Title="AsInteger Method " Url="html/a5ce07e7-3f5e-e796-599c-2a0072dfc4fd.htm" />
+        <HelpTOCNode Title="AsIntegerMatrix Method " Url="html/c1ac0005-073a-7a8e-03ac-54fd60c4f73c.htm" />
+        <HelpTOCNode Title="AsLanguage Method " Url="html/70f63ec5-5dcb-6f56-19bb-cd4ee6145a34.htm" />
+        <HelpTOCNode Title="AsList Method " Url="html/4b568e62-ca53-6025-8166-3c004ab1522a.htm" />
+        <HelpTOCNode Title="AsLogical Method " Url="html/614d43bd-09eb-0d3f-a6ca-fef577fce6ed.htm" />
+        <HelpTOCNode Title="AsLogicalMatrix Method " Url="html/8a67b066-99fa-b369-9c87-8e4ec12c8742.htm" />
+        <HelpTOCNode Title="AsNumeric Method " Url="html/6f13cd03-2ce1-86d8-fbe3-9e79f3e1ef69.htm" />
+        <HelpTOCNode Title="AsNumericMatrix Method " Url="html/3e04e345-faee-b75a-f534-15cce10d19e7.htm" />
+        <HelpTOCNode Title="AsRaw Method " Url="html/32883f75-a538-97eb-2da3-e446bb6c6033.htm" />
+        <HelpTOCNode Title="AsRawMatrix Method " Url="html/c2a94b50-050e-8673-a097-aa47add8bab9.htm" />
+        <HelpTOCNode Title="AsS4 Method " Url="html/dffc5020-b402-9d24-4ae5-155b5f2c193d.htm" />
+        <HelpTOCNode Title="AsSymbol Method " Url="html/fa8531a6-8346-827c-0cbf-74b772464633.htm" />
+        <HelpTOCNode Title="AsVector Method " Url="html/612478e2-416a-bb70-3c34-1d26c315833f.htm" />
+        <HelpTOCNode Title="IsDataFrame Method " Url="html/1174dc07-46fe-484f-100a-2ac1dd0bd4a1.htm" />
+        <HelpTOCNode Title="IsEnvironment Method " Url="html/105f2fbe-d5ba-0cfb-5d99-fe77e1f808e4.htm" />
+        <HelpTOCNode Title="IsExpression Method " Url="html/24ee5079-14a4-c043-da30-3fbf53f33b64.htm" />
+        <HelpTOCNode Title="IsFactor Method " Url="html/0fa48dff-33ef-8faf-ffe5-48c8ef17bd20.htm" />
+        <HelpTOCNode Title="IsFunction Method " Url="html/e5bd1d37-f74d-ef47-26e5-0ab94d523bb3.htm" />
+        <HelpTOCNode Title="IsLanguage Method " Url="html/3d6eb77b-3504-4fe3-5578-d83cba6be7eb.htm" />
+        <HelpTOCNode Title="IsList Method " Url="html/c669b664-fe94-7e09-50f5-08c8e7c249a1.htm" />
+        <HelpTOCNode Title="IsMatrix Method " Url="html/37f3ed3e-911d-8b01-4dc3-34f98fc52a11.htm" />
+        <HelpTOCNode Title="IsS4 Method " Url="html/5e1532b4-9576-c484-52bb-7391be3a2ca2.htm" />
+        <HelpTOCNode Title="IsSymbol Method " Url="html/7b86d81d-ed02-58a1-e567-4b7f883be6d6.htm" />
+        <HelpTOCNode Title="IsVector Method " Url="html/2b008868-cd97-5e37-479d-02405f737bc7.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0bd8820c-537e-4ce5-a31c-7a4b0014eb3f" Title="Vector(T) Class" Url="html/1d9d95dc-fb72-ae9b-b8d6-8166be74d63d.htm">
+      <HelpTOCNode Id="7084cc3d-c96f-447d-8226-122d2af857a2" Title="Vector(T) Constructor " Url="html/133ba0a5-b2c8-1b12-1a95-bdc469a13eff.htm">
+        <HelpTOCNode Title="Vector(T) Constructor (REngine, IntPtr)" Url="html/b4e61f4d-c361-5acd-4f24-de430c4a84e0.htm" />
+        <HelpTOCNode Title="Vector(T) Constructor (REngine, SymbolicExpressionType, IEnumerable(T))" Url="html/fc3b6a0b-9aec-2a5f-d624-61ede5fba8d7.htm" />
+        <HelpTOCNode Title="Vector(T) Constructor (REngine, SymbolicExpressionType, Int32)" Url="html/190e2496-5c67-6f10-8b4c-5e27aecbb045.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e3518e01-a50b-49e5-b0e6-866cd55bfe48" Title="Vector(T) Properties" Url="html/7d066ab8-ca45-b8d5-b201-281672ac8b2b.htm">
+        <HelpTOCNode Title="DataPointer Property " Url="html/d02b33c7-7177-b6a0-5e64-522b2b4c59d2.htm" />
+        <HelpTOCNode Title="DataSize Property " Url="html/00cbfb39-c154-d03e-7fcf-5aff6497b550.htm" />
+        <HelpTOCNode Id="5b510e9c-2e62-4de0-9b50-df6f8f4632f4" Title="Item Property " Url="html/7bbac0d9-522a-ec94-ab39-f40eb63668f7.htm">
+          <HelpTOCNode Title="Item Property (Int32)" Url="html/6cfe478b-5cc7-f7f9-a172-8f2bc0885bbf.htm" />
+          <HelpTOCNode Title="Item Property (String)" Url="html/44a189cf-4c73-c6fc-9507-28e30396fcf6.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Length Property " Url="html/eae6b4dc-3e5f-4b90-7708-13d8b0b4afce.htm" />
+        <HelpTOCNode Title="Names Property " Url="html/68148043-d7a6-5d41-1b7e-d04ed1f914cd.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="77df7961-86ae-49b8-8c76-3ed90d574a61" Title="Vector(T) Methods" Url="html/f5409069-6bdc-5f4b-4af5-94942e38fce1.htm">
+        <HelpTOCNode Title="CopyTo Method " Url="html/808f9661-7624-f675-0d0a-9a9230e1188f.htm" />
+        <HelpTOCNode Title="GetArrayFast Method " Url="html/62617b10-6456-c4f2-4b0d-ca9cf97a21dc.htm" />
+        <HelpTOCNode Title="GetEnumerator Method " Url="html/687f951a-532b-a1b0-18e2-a2a830bab1e5.htm" />
+        <HelpTOCNode Title="GetOffset Method " Url="html/aa58d096-1262-1667-5e6c-27f5641de6b9.htm" />
+        <HelpTOCNode Title="SetVector Method " Url="html/398313f3-63ce-6f4a-fe0b-0736f13ea551.htm" />
+        <HelpTOCNode Title="SetVectorDirect Method " Url="html/ea85eddf-b3d7-c344-db1d-ef1ad58b4307.htm" />
+        <HelpTOCNode Title="ToArray Method " Url="html/0814af4e-3ae2-9c77-39b3-2039327c9ed8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Vector(T) Fields" Url="html/b15294da-e8f3-cc58-a9d6-80db1bb01fad.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="88562490-ade7-481d-b682-fef4edf63c05" Title="RDotNet.Devices" Url="html/4f5d02cd-6d00-1bdc-d633-873f098344b6.htm">
+    <HelpTOCNode Id="75343df4-d184-40b7-8437-1f7d53037478" Title="ConsoleDevice Class" Url="html/7f5d7849-f70d-2789-71d4-8fc5bd45c302.htm">
+      <HelpTOCNode Title="ConsoleDevice Constructor " Url="html/f3a2e499-d3cf-87c3-c630-f4b3b24d5fcd.htm" />
+      <HelpTOCNode Id="64598349-d255-45b0-9d9a-9e452c5d66a2" Title="ConsoleDevice Methods" Url="html/4017f287-a371-dd04-e0c4-346972ef66d5.htm">
+        <HelpTOCNode Title="AddHistory Method " Url="html/c2492df9-b745-cdfa-f950-399b18f5643b.htm" />
+        <HelpTOCNode Title="Ask Method " Url="html/3aa53031-50c5-8258-8959-256d5efbcb33.htm" />
+        <HelpTOCNode Title="Busy Method " Url="html/1fe3816a-2c5c-53c2-d1ef-12a2c34d5f94.htm" />
+        <HelpTOCNode Title="Callback Method " Url="html/c14d2ed2-7d32-99d7-0a6c-fb1ebbe0c914.htm" />
+        <HelpTOCNode Title="ChooseFile Method " Url="html/d45854f4-f057-0ca6-7a56-468a6619e115.htm" />
+        <HelpTOCNode Title="CleanUp Method " Url="html/663084de-7dfc-7e00-f421-c69a5e6a64e7.htm" />
+        <HelpTOCNode Title="ClearErrorConsole Method " Url="html/01f35f34-1371-8a0d-9686-04b5dcce61c7.htm" />
+        <HelpTOCNode Title="EditFile Method " Url="html/ccdef5c1-fadd-5ee4-7886-092b47482813.htm" />
+        <HelpTOCNode Title="FlushConsole Method " Url="html/be13d432-69c0-1159-446c-c70534066c64.htm" />
+        <HelpTOCNode Title="LoadHistory Method " Url="html/9b18a0d5-45f9-0481-03d6-25dfa8802a8c.htm" />
+        <HelpTOCNode Title="ReadConsole Method " Url="html/408d4140-b0a9-02b6-e8f5-66f0d9631aca.htm" />
+        <HelpTOCNode Title="ResetConsole Method " Url="html/aa178195-7ed0-7ed3-a770-d2eb5d7629ca.htm" />
+        <HelpTOCNode Title="SaveHistory Method " Url="html/5699fa2b-bf4f-2215-c14a-f37842a675c3.htm" />
+        <HelpTOCNode Title="ShowFiles Method " Url="html/15f54c59-e2e4-ae03-240d-f9ea6e3eaf56.htm" />
+        <HelpTOCNode Title="ShowMessage Method " Url="html/016c33dc-ce97-469c-0d52-05ac31141a84.htm" />
+        <HelpTOCNode Title="Suicide Method " Url="html/1ace7b05-6e0b-6cbf-46fb-de13c6bc4dd9.htm" />
+        <HelpTOCNode Title="WriteConsole Method " Url="html/ae83b9a8-bc6f-c865-a677-9f872c92bb38.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="961a18e5-8520-4749-b008-dd57b0f76f46" Title="ICharacterDevice Interface" Url="html/f8eb1bfb-c9bf-7cc0-d56b-b2157fe4dbe9.htm">
+      <HelpTOCNode Id="f5515a19-10b1-425e-81e8-5a4baace6748" Title="ICharacterDevice Methods" Url="html/3bd8f666-7769-29ee-f95a-70e276ea305e.htm">
+        <HelpTOCNode Title="AddHistory Method " Url="html/1971961b-b1ef-ba16-4935-636754265718.htm" />
+        <HelpTOCNode Title="Ask Method " Url="html/cc8e30e2-bed5-15f9-9262-f9283b24c16c.htm" />
+        <HelpTOCNode Title="Busy Method " Url="html/d781a5c4-4be9-64f9-2d0b-ac966b221bbd.htm" />
+        <HelpTOCNode Title="Callback Method " Url="html/e15a93a8-d78c-699f-0ab5-8fde946f800a.htm" />
+        <HelpTOCNode Title="ChooseFile Method " Url="html/732cbca8-960b-3ab8-eccb-d2897ab22f43.htm" />
+        <HelpTOCNode Title="CleanUp Method " Url="html/d1db6a81-15db-82aa-d530-871368e6b1fa.htm" />
+        <HelpTOCNode Title="ClearErrorConsole Method " Url="html/7ccc3a4c-ed09-bcd7-7d61-c6612a14c30b.htm" />
+        <HelpTOCNode Title="EditFile Method " Url="html/a6a47aa7-f176-a83b-15cc-476d71764195.htm" />
+        <HelpTOCNode Title="FlushConsole Method " Url="html/b2d16b41-0e1e-5b9a-f143-45b27039a8e3.htm" />
+        <HelpTOCNode Title="LoadHistory Method " Url="html/a54de3a7-bd17-b52c-96b3-2be04e3c6589.htm" />
+        <HelpTOCNode Title="ReadConsole Method " Url="html/28a5881f-bb2b-e9ce-b114-feed92fbdb61.htm" />
+        <HelpTOCNode Title="ResetConsole Method " Url="html/3a99431f-be07-b25c-897b-0cd52a83cb5d.htm" />
+        <HelpTOCNode Title="SaveHistory Method " Url="html/8f19c1a6-795f-34a6-66bd-37414d87940c.htm" />
+        <HelpTOCNode Title="ShowFiles Method " Url="html/65f6e025-7486-f00a-ef5f-f1802d173904.htm" />
+        <HelpTOCNode Title="ShowMessage Method " Url="html/f64b484e-ff6a-ec04-09ad-f7a9c54c4782.htm" />
+        <HelpTOCNode Title="Suicide Method " Url="html/43a47943-5b0b-c1d1-343b-1a67e5fe877b.htm" />
+        <HelpTOCNode Title="WriteConsole Method " Url="html/84cafbb4-5b56-4436-75ee-fc61270ddd90.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7c92938b-2975-4dbd-a34f-2141f6e6c5f4" Title="NullCharacterDevice Class" Url="html/763aeec8-47cb-54e7-e37f-b0174b425841.htm">
+      <HelpTOCNode Title="NullCharacterDevice Constructor " Url="html/a02045e1-37fe-dfdd-fa6b-6f04a337e4da.htm" />
+      <HelpTOCNode Id="9b394dc8-3992-473e-9508-685c4315b610" Title="NullCharacterDevice Methods" Url="html/d7b2a9b4-9177-a508-0db1-da2a5e1ee956.htm">
+        <HelpTOCNode Title="AddHistory Method " Url="html/fe0e350e-5867-7ad1-599d-7bafd2a8afc9.htm" />
+        <HelpTOCNode Title="Ask Method " Url="html/102caa3d-bcdb-f2d2-2c98-95f086ac818b.htm" />
+        <HelpTOCNode Title="Busy Method " Url="html/81259e85-5dbe-9980-2b9c-5b3f2cd93fd0.htm" />
+        <HelpTOCNode Title="Callback Method " Url="html/1f2d33f1-97f0-a54e-1866-6f7dbf1f2517.htm" />
+        <HelpTOCNode Title="ChooseFile Method " Url="html/275126f4-0d21-c883-984c-84ba85306440.htm" />
+        <HelpTOCNode Title="CleanUp Method " Url="html/73a9ee0e-5816-3486-1f41-f0ad8b3e1d61.htm" />
+        <HelpTOCNode Title="ClearErrorConsole Method " Url="html/0c742287-86b7-3c15-29bc-afb66571032c.htm" />
+        <HelpTOCNode Title="EditFile Method " Url="html/fbefb9a8-5ef3-4804-933b-e3a34c4ee5e8.htm" />
+        <HelpTOCNode Title="FlushConsole Method " Url="html/18288906-6677-aa6c-f191-c6af4740bcad.htm" />
+        <HelpTOCNode Title="LoadHistory Method " Url="html/fb80b955-6cb3-aadc-92ee-fe4a3466f180.htm" />
+        <HelpTOCNode Title="ReadConsole Method " Url="html/30d35b47-fba1-f209-2cb3-e36ee68ed197.htm" />
+        <HelpTOCNode Title="ResetConsole Method " Url="html/ee9f1725-cf00-4f32-666a-220413ed5952.htm" />
+        <HelpTOCNode Title="SaveHistory Method " Url="html/9cf008f8-90ab-c532-04b9-a10753097f7d.htm" />
+        <HelpTOCNode Title="ShowFiles Method " Url="html/65c79f72-7e1c-e16c-65ab-930dd98efe69.htm" />
+        <HelpTOCNode Title="ShowMessage Method " Url="html/bc6bd88a-cf28-ca90-0409-c511a458121b.htm" />
+        <HelpTOCNode Title="Suicide Method " Url="html/7d7c5d23-74ff-e384-2d35-d095a6dbb4cf.htm" />
+        <HelpTOCNode Title="WriteConsole Method " Url="html/e9dbae17-4270-825f-6466-2085b51b8c7f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="52b3f064-b3ad-4828-b2c5-1619afd161d1" Title="RDotNet.Dynamic" Url="html/79c65643-6029-5eba-a919-a6cc35877631.htm">
+    <HelpTOCNode Id="c8c9334a-dbf3-4132-92b2-7842ca3f32a1" Title="DataFrameDynamicMeta Class" Url="html/64202b40-40f7-1518-3b94-76d1feb5f9be.htm">
+      <HelpTOCNode Title="DataFrameDynamicMeta Constructor " Url="html/8a3a5c32-796b-2f7a-b91d-7ab3b7212801.htm" />
+      <HelpTOCNode Title="DataFrameDynamicMeta Properties" Url="html/63c045fb-e9a6-c269-8e79-549b51071d28.htm" />
+      <HelpTOCNode Id="ceb1c522-4035-44d5-bd34-b3bf70a33ea4" Title="DataFrameDynamicMeta Methods" Url="html/15bd3c15-c895-5673-5a9c-58f8c1ec9992.htm">
+        <HelpTOCNode Id="75079482-cfe6-470b-bb4a-b5283b165aa6" Title="BindGetMember Method " Url="html/4d3cf9b2-67e9-1ac4-bc62-ade00c0dbd5b.htm">
+          <HelpTOCNode Title="BindGetMember Method (GetMemberBinder)" Url="html/d36db55d-81ac-c0eb-dba4-7943e37c6e89.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetDynamicMemberNames Method " Url="html/dbeff4ea-31f8-7d6a-9ebd-09badbb724ec.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="92b79449-d1b1-4699-9ae4-e49201e63357" Title="ListDynamicMeta Class" Url="html/14145e99-e269-b7dc-b59b-5338c7c3db42.htm">
+      <HelpTOCNode Title="ListDynamicMeta Constructor " Url="html/84b2ad6f-7417-ce36-5ba7-5668088bcba4.htm" />
+      <HelpTOCNode Title="ListDynamicMeta Properties" Url="html/49f81d4a-1a62-5d3a-b6c8-e43eb90cc6cc.htm" />
+      <HelpTOCNode Id="31079a26-e39b-4742-a0dd-37c121087f1e" Title="ListDynamicMeta Methods" Url="html/17baf85c-f17a-40cf-59ca-f39c869c7eb2.htm">
+        <HelpTOCNode Id="47f92f08-422c-463d-916f-759fdfc36410" Title="BindGetMember Method " Url="html/788a8a70-d479-6045-c8e6-87e2395dbb49.htm">
+          <HelpTOCNode Title="BindGetMember Method (GetMemberBinder)" Url="html/089e915b-7539-39dc-2167-1e1d971cffa7.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetDynamicMemberNames Method " Url="html/092e6150-6084-af87-6c0d-5bfd2307fccd.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2c5178d4-ffc5-4766-9496-40a7f87785df" Title="SymbolicExpressionDynamicMeta Class" Url="html/97093dc6-4245-e158-756d-01dcef877c22.htm">
+      <HelpTOCNode Title="SymbolicExpressionDynamicMeta Constructor " Url="html/1130d2f6-5486-361d-4a37-d9ddbb009aca.htm" />
+      <HelpTOCNode Title="SymbolicExpressionDynamicMeta Properties" Url="html/d4fe2d66-9bad-e586-da87-d8c9df4c55ba.htm" />
+      <HelpTOCNode Id="45cef7b7-a0fe-43e3-918d-86a4d6f525a6" Title="SymbolicExpressionDynamicMeta Methods" Url="html/aabf0e68-1ff7-8125-6c0d-d6e3402771fb.htm">
+        <HelpTOCNode Id="4cfd24e8-02e1-4c2a-92f5-b228326157c0" Title="BindGetMember Method " Url="html/47e98025-31c8-572b-26d5-7a5d6c9a113f.htm">
+          <HelpTOCNode Title="BindGetMember Method (GetMemberBinder)" Url="html/36f388c9-9a12-26b6-89f0-9208ce25a5ae.htm" />
+          <HelpTOCNode Title="BindGetMember(RType, BType) Method (GetMemberBinder, Type[])" Url="html/1ec06bdf-68ce-9bce-04ea-80df9a54ba84.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetDynamicMemberNames Method " Url="html/6f8eebb0-a380-fff5-8623-a04c0143b097.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f042b273-85f7-40e6-ae48-7d52ea5ffbbf" Title="SymbolicExpressionDynamicMeta Fields" Url="html/1e1760b4-fc16-affe-cd65-ab100d1e17f0.htm">
+        <HelpTOCNode Title="Empty Field" Url="html/45ebc040-592b-d21a-6b35-682f0ecacd26.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="a6c0bbf1-e251-4915-bab2-c23998ab95cc" Title="RDotNet.Internals" Url="html/005ae910-c48d-66b9-9eda-0f2fd9b73321.htm">
+    <HelpTOCNode Title="BusyType Enumeration" Url="html/4efce36f-56cb-f057-59b2-d26435daf324.htm" />
+    <HelpTOCNode Title="ConsoleOutputType Enumeration" Url="html/8e2a88a2-52d1-c1b2-aca5-00ce836f0dba.htm" />
+    <HelpTOCNode Title="OutputMode Enumeration" Url="html/6ab0d07f-c874-d4af-7c70-0b0339e65afe.htm" />
+    <HelpTOCNode Title="ParseStatus Enumeration" Url="html/21e81bfd-8bc9-faec-0901-9e9fdb2fad75.htm" />
+    <HelpTOCNode Title="Rf_PrintValue Delegate" Url="html/0c079368-43dd-0cde-e02b-bf40e25d202c.htm" />
+    <HelpTOCNode Title="StartupRestoreAction Enumeration" Url="html/d21864d6-7202-d54c-9bc2-53ee8909272e.htm" />
+    <HelpTOCNode Title="StartupSaveAction Enumeration" Url="html/2421f2d1-50d1-3187-09bc-c578db10dfe7.htm" />
+    <HelpTOCNode Title="SymbolicExpressionType Enumeration" Url="html/c47bf8d0-0cd0-fe86-4bd5-49fa600db771.htm" />
+    <HelpTOCNode Title="YesNoCancel Enumeration" Url="html/532ee7f6-544b-b010-56bc-6782b11d458a.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="816d66ab-b906-44c0-9f7a-c7f932089417" Title="RDotNet.Internals.Windows" Url="html/379e2521-f1e9-fbee-bd6b-2d92b4baf27b.htm">
+    <HelpTOCNode Title="UiMode Enumeration" Url="html/c931625d-b484-ef5f-fe1c-1d7466822061.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="6bb31d3e-8de8-4b10-a5ae-4a3f3bc4e6e5" Title="RDotNet.NativeLibrary" Url="html/ddeccd24-cf2f-b688-3390-a5130a390a9a.htm">
+    <HelpTOCNode Id="0c8cc204-b396-4162-8925-11b435c114b1" Title="NativeUtility Class" Url="html/7a6765e7-5901-ceea-b7a4-0c2823f334eb.htm">
+      <HelpTOCNode Id="5e844e29-cd96-4082-94e6-0ab966c8ac06" Title="NativeUtility Properties" Url="html/3aaa7068-6660-0c23-c944-2b831c9d1d02.htm">
+        <HelpTOCNode Title="IsUnix Property " Url="html/a2839913-1222-3be8-9931-57aacbb9df2a.htm" />
+        <HelpTOCNode Title="SetEnvironmentVariablesLog Property " Url="html/fde6a4ce-4580-337b-57ef-a4bef7eb94e6.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8ee0c8a8-d6eb-4e21-8ad5-01567e77ee32" Title="NativeUtility Methods" Url="html/1378c2b4-673b-ed6f-548d-9066d5a4ec22.htm">
+        <HelpTOCNode Title="ExecCommand Method " Url="html/073a75f8-c925-1933-4ff3-3ab3525a9ad1.htm" />
+        <HelpTOCNode Title="FindRHome Method " Url="html/5a636b40-d1a2-5292-3393-7b83ee229e49.htm" />
+        <HelpTOCNode Title="FindRPath Method " Url="html/1472d53b-4332-9053-77ae-b6c254139184.htm" />
+        <HelpTOCNode Title="FindRPathFromRegistry Method " Url="html/4f67e562-88ec-39ca-0aa1-4698113a1a5e.htm" />
+        <HelpTOCNode Title="FindRPaths Method " Url="html/fdb54281-1c52-e454-ed64-ce3394c037fd.htm" />
+        <HelpTOCNode Title="GetPlatform Method " Url="html/c781e91a-a363-a920-3eee-25e550ed822d.htm" />
+        <HelpTOCNode Title="GetRHomeEnvironmentVariable Method " Url="html/0ff14ef5-a02b-4da3-a57c-063ae41a064a.htm" />
+        <HelpTOCNode Title="GetRLibraryFileName Method " Url="html/afa7c0b6-9bc0-5f49-873e-b8e6e9fd369e.htm" />
+        <HelpTOCNode Title="GetRVersionFromRegistry Method " Url="html/1fb336b1-a352-eae6-c860-c83557c84d3c.htm" />
+        <HelpTOCNode Title="SetEnvironmentVariables Method " Url="html/8eae19c4-4fc4-8ddd-33c0-7ec017c39e30.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="71863930-6c75-4b33-8dce-d5996220a633" Title="RDotNet.Utilities" Url="html/0180c3ab-7f49-a55a-6d0a-8f91c9f7ffbb.htm">
+    <HelpTOCNode Id="8dbd92a0-dc51-4e5f-99a5-5de919a73e66" Title="ArrayConverter Class" Url="html/51eadfcc-e1f5-eba6-441e-29f9e344856e.htm">
+      <HelpTOCNode Id="c4dc4b9b-d3f5-4803-a680-b31b5eeb028d" Title="ArrayConverter Methods" Url="html/572a1376-efde-ffe3-2b0f-bb8006eb7b45.htm">
+        <HelpTOCNode Id="631c9aaa-531e-4638-879a-99d90268c01a" Title="ArrayConvertAll Method " Url="html/c63c6f62-3abf-f853-d176-c86236027a7a.htm">
+          <HelpTOCNode Title="ArrayConvertAll(T, U) Method (T[,], Func(T, U))" Url="html/6e341f79-044c-4be5-47f8-db936a71a9a4.htm" />
+          <HelpTOCNode Title="ArrayConvertAll(T, U) Method (T[][], Func(T, U))" Url="html/a629a9eb-6afe-0355-c77d-40c57d649540.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ArrayConvertAllOneDim(T, U) Method " Url="html/c292166f-d76e-2143-1fb0-6b25417384fe.htm" />
+        <HelpTOCNode Id="a25f7195-0004-4d79-ba25-226ebf4da9d8" Title="ArrayConvertAllTwoDim Method " Url="html/7eb46b9c-f3ab-95f5-1a49-acd8b9696e98.htm">
+          <HelpTOCNode Title="ArrayConvertAllTwoDim(U) Method (U[], Int32, Int32)" Url="html/ef6f2886-8625-a784-a781-c5a95f9a46f1.htm" />
+          <HelpTOCNode Title="ArrayConvertAllTwoDim(T, U) Method (T[], Func(T, U), Int32, Int32)" Url="html/8b25b2b1-9090-3592-00ba-6efc30e302d7.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ArrayConvertOneDim(U) Method " Url="html/5ca06dd5-cc13-2921-6164-52c6ef60f19b.htm" />
+        <HelpTOCNode Title="CreateMatrixJagged(T) Method " Url="html/8b3a0df5-92ca-8584-68d0-987729064691.htm" />
+        <HelpTOCNode Title="Subset(T) Method " Url="html/c025d3c1-2d72-cc7e-6e8c-6c01839cdd95.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2811ad9c-aeea-43d9-a91d-57f08ba495ce" Title="REngineExtensionsAdvanced Class" Url="html/e90f1873-5cd0-fef0-2b54-d56bfc497456.htm">
+      <HelpTOCNode Id="d4326319-ceeb-471a-bfd5-5746255cb40f" Title="REngineExtensionsAdvanced Methods" Url="html/52b6fc29-22a1-d6c1-697a-781ce2fadd45.htm">
+        <HelpTOCNode Title="CheckUnbound Method " Url="html/f48342fa-3a0c-4b01-e740-b40e8ec323da.htm" />
+        <HelpTOCNode Title="EqualsRNilValue Method " Url="html/9f1d35cb-f0f9-78f3-885b-d87a13567c36.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
